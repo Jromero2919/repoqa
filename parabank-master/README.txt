@@ -1,0 +1,1 @@
+Maven integration was tested on Tomcat 7,8 and Java 7,8.

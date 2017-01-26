@@ -1,0 +1,93 @@
+License: Machine id LINUX2-1b9abf0c
+Downloaded rules: 0
+Rules have changed, performing update
+Configuration: Unit Tests (builtin://Unit Tests).
+Command line: jtestcli -data /home/qa/Documents/parabank-master/target/jtest/jtest.data.json -config builtin://Unit Tests -exclude /home/qa/Documents/parabank-master/target/jtest/testExcludes.lst -report /home/qa/Documents/parabank-master/target/jtest -fail false
+[ 0%] > Computing testing context.
+Number of excluded elements: 159.
+[ 2%] < Computing testing context.: 100% 
+[ 2%] > Scope
+[ 2%] > Scope > Resources Filter
+[ 2%] > Analysis
+[ 2%] > Analysis > Coverage
+[ 2%] > Results
+[ 2%] > Results > Metrics processor
+[ 2%] > Results > Scope Processor
+[ 2%] > Results > Duplicates Processor
+[ 2%] > Results > Rule Limit Processor
+[ 2%] > Results > Metadata Processor
+[ 2%] > Results > Unit Test Processor
+[ 2%] > Results > Author Processor
+[ 2%] > Results > Suppression Processor
+[ 2%] > Results > Coverage Processor
+[ 2%] > Results > Goals Processor
+[ 2%] > Analysis
+[ 2%] > Analysis > JUnit
+[ 2%] > Results
+[ 2%] > Results > Metrics processor
+[ 2%] > Results > Scope Processor
+[ 2%] > Results > Duplicates Processor
+[ 2%] > Results > Rule Limit Processor
+[ 2%] > Results > Metadata Processor
+[ 2%] > Results > Unit Test Processor
+[ 2%] > Results > Author Processor
+[ 2%] > Results > Suppression Processor
+[ 2%] > Results > Coverage Processor
+[ 2%] > Results > Goals Processor
+[ 2%] > Reporting
+Sending reports by mail is disabled, use report.mail.enabled setting to enable.
+[ 6%] < Scope > Resources Filter: rejected 0 of 144 analyzed inputs 
+[ 6%] < Scope: rejected 0 of 144 analyzed inputs                                  >>> Scope time 0s
+[83%] < Analysis > Coverage: found 0 violations on analyzed 137 of 144 inputs, skipped 7       >>> Coverage time 0.48s
+[83%] < Analysis: found 0 violations                                              >>> Analysis time 0.49s
+[83%] < Results > Metrics processor: processed 0 accepted violations 
+[83%] < Results > Scope Processor: removed 0 of 0 violations 
+[83%] < Results > Duplicates Processor: removed 0 of 0 violations  
+[83%] < Results > Rule Limit Processor: removed 0 of 0 violations  
+[84%] < Results > Metadata Processor: DTP metadata available for 0 of 0 applicable findings  
+[84%] < Results > Unit Test Processor: processed 0 accepted violations 
+[84%] < Results > Author Processor: reassigned 0 of 0 accepted violations 
+[85%] < Results > Suppression Processor: suppressed 0 of 0 accepted violations 
+[85%] < Results > Coverage Processor: processed 1,606 of 1,606 coverage infos 
+[85%] < Results > Goals Processor: processed 0 accepted violations 
+[85%] < Results: processed 0 accepted violations                                  >>> Results time 0.36s
+[95%] < Analysis > JUnit: found 0 violations on analyzed 70 of 144 inputs, skipped 2       >>> JUnit time 2.15s ETA 0m1s
+[95%] < Analysis: found 6 violations                                              >>> Analysis time 2.64s
+[95%] < Results > Metrics processor: processed 6 accepted violations 
+[95%] < Results > Scope Processor: removed 0 of 6 violations 
+[95%] < Results > Duplicates Processor: removed 0 of 0 violations  
+[95%] < Results > Rule Limit Processor: removed 0 of 6 violations  
+[95%] < Results > Metadata Processor: DTP metadata available for 0 of 0 applicable findings  
+[95%] < Results > Unit Test Processor: processed 6 accepted violations 
+[95%] < Results > Author Processor: reassigned 0 of 6 accepted violations 
+[95%] < Results > Suppression Processor: suppressed 0 of 6 accepted violations 
+[95%] < Results > Coverage Processor: processed 1,606 of 0 coverage infos 
+[95%] < Results > Goals Processor: processed 6 accepted violations 
+[95%] < Results: processed 6 accepted violations                                  >>> Results time 2.04s
+[95%] < Reporting: reported 6 accepted violations                                 >>> Reporting time 0.45s
+[95%]                                                                             >>> Total time 7.43s
+[95%] > Finalizing reporters.
+Files in scope: 144
+Rules violated: 0/0
+Metrics enabled: 0
+Static analysis violations: 0
+Unit Tests failures: 6
+Executed test cases: 210
+Passed: 204
+Failed: 6
+Incomplete: 0
+Coverage: 1837/4050 lines (45% covered)
+Running time in seconds : 9
+[95%]   Finalizing reporters.: 16% 
+Generated XML report: /home/qa/Documents/parabank-master/target/jtest/report.xml
+Publishing report to DTP soa-sdm-concerto.parasoft.com:8443 for ARCHIVE project ...
+Report published successfully to DTP
+[96%]   Finalizing reporters.: 25% 
+Generated HTML report: /home/qa/Documents/parabank-master/target/jtest/report.html
+[96%]   Finalizing reporters.: 33% 
+Total source files published to DTP: 214 of 214 (180 KB) in 1.49s
+Generated XML report: /home/qa/Documents/parabank-master/target/jtest/coverage.xml
+Publishing report to DTP soa-sdm-concerto.parasoft.com:8443 for ARCHIVE project ...
+Report published successfully to DTP
+[97%]   Finalizing reporters.: 50% 
+[100%] < Finalizing reporters.: 100% 

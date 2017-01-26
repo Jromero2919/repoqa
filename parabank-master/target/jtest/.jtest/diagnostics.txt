@@ -1,0 +1,2265 @@
+Diagnostics file initialized on Thu Jan 26 15:05:51 PST 2017
+================================================================================================
+AVAILABLE BUNDLES AND SERVICES (109)
+================================================================================================
+Bundle [0]: org.apache.felix.framework, state: [8], version: 4.4.1
+Bundle [1]: org.apache.felix.scr, state: [32], version: 1.8.2
+Bundle [2]: com.parasoft.xtest.logging.api, state: [32], version: 10.3.0.20161114
+Bundle [3]: com.parasoft.xtest.services.api, state: [32], version: 10.3.0.20161114
+Bundle [4]: org.apache.felix.fileinstall, state: [2], version: 3.5.0
+Bundle [5]: com.esotericsoftware.minlog, state: [2], version: 1.2.0
+Bundle [6]: com.google.gson, state: [2], version: 2.2.4
+Bundle [7]: com.parasoft.javax.activation, state: [2], version: 1.1.1
+Bundle [8]: com.parasoft.jtest.analyzer, state: [2], version: 10.3.0.20161114
+Bundle [9]: com.parasoft.jtest.common, state: [2], version: 10.3.0.20161114
+Bundle [10]: com.parasoft.jtest.configuration, state: [2], version: 10.3.0.20161114
+Bundle [11]: com.parasoft.jtest.context.api, state: [2], version: 10.3.0.20161114
+Bundle [12]: com.parasoft.jtest.context, state: [2], version: 10.3.0.20161114
+Bundle [13]: com.parasoft.jtest.controller.api, state: [2], version: 10.3.0.20161114
+Bundle [14]: com.parasoft.jtest.controller, state: [2], version: 10.3.0.20161114
+Bundle [15]: com.parasoft.jtest.data, state: [2], version: 10.3.0.20161114
+Bundle [16]: com.parasoft.jtest.database, state: [2], version: 10.3.0.20161114
+Bundle [17]: com.parasoft.jtest.duplremover, state: [2], version: 10.3.0.20161114
+Bundle [18]: com.parasoft.jtest.execution.coverage.bin, state: [2], version: 10.3.0.20161114
+Bundle [19]: com.parasoft.jtest.execution.coverage, state: [2], version: 10.3.0.20161114
+Bundle [20]: com.parasoft.jtest.execution.instrumentation.data.runtime, state: [2], version: 10.3.0.20161114
+Bundle [21]: com.parasoft.jtest.execution.instrumentation.data.static, state: [2], version: 10.3.0.20161114
+Bundle [22]: com.parasoft.jtest.execution.instrumentation.reporter.core, state: [2], version: 10.3.0.20161114
+Bundle [23]: com.parasoft.jtest.execution.instrumentation.util, state: [2], version: 10.3.0.20161114
+Bundle [24]: com.parasoft.jtest.execution.instrumentator, state: [2], version: 10.3.0.20161114
+Bundle [25]: com.parasoft.jtest.execution.runtime.api, state: [2], version: 10.3.0.20161114
+Bundle [26]: com.parasoft.jtest.execution.unittests, state: [2], version: 10.3.0.20161114
+Bundle [27]: com.parasoft.jtest.flowanalyzer, state: [2], version: 10.3.0.20161103B634
+Bundle [28]: com.parasoft.jtest.language, state: [2], version: 10.3.0.20161103B634
+Bundle [29]: com.parasoft.jtest.parser.api, state: [2], version: 10.3.0.20161114
+Bundle [30]: com.parasoft.jtest.parser, state: [2], version: 10.3.0.20161114
+Bundle [31]: com.parasoft.jtest.standards.api, state: [2], version: 10.3.0.20161114
+Bundle [32]: com.parasoft.jtest.standards.checkers.java, state: [2], version: 10.3.0.20161114
+Bundle [33]: com.parasoft.jtest.standards.checkers.prop, state: [2], version: 10.3.0.20161114
+Bundle [34]: com.parasoft.jtest.standards.checkers.rulewizard, state: [2], version: 10.3.0.20161114
+Bundle [35]: com.parasoft.jtest.standards.checkers.xml, state: [2], version: 10.3.0.20161114
+Bundle [36]: com.parasoft.jtest.standards.dupcode, state: [2], version: 10.3.0.20161114
+Bundle [37]: com.parasoft.jtest.standards.globals, state: [2], version: 10.3.0.20161114
+Bundle [38]: com.parasoft.jtest.standards.metrics.analyzer, state: [2], version: 10.3.0.20161114
+Bundle [39]: com.parasoft.jtest.standards.rules.prop, state: [2], version: 10.3.0.20161114
+Bundle [40]: com.parasoft.jtest.standards.rules.xml, state: [2], version: 10.3.0.20161114
+Bundle [41]: com.parasoft.jtest.standards.rules, state: [2], version: 10.3.0.20161114
+Bundle [42]: com.parasoft.jtest.standards, state: [2], version: 10.3.0.20161114
+Bundle [43]: com.parasoft.jtest.util, state: [2], version: 10.3.0.20161114
+Bundle [44]: com.parasoft.jtest.xtest, state: [2], version: 10.3.0.20161114
+Bundle [45]: com.parasoft.xtest.analyzers.api, state: [2], version: 10.3.0.20161114
+Bundle [46]: com.parasoft.xtest.authorship, state: [2], version: 10.3.0.20161114
+Bundle [47]: com.parasoft.xtest.chart.api, state: [2], version: 10.3.0.20161114
+Bundle [48]: com.parasoft.xtest.common.api, state: [2], version: 10.3.0.20161114
+Bundle [49]: com.parasoft.xtest.common.ui, state: [2], version: 10.3.0.20161114
+Bundle [50]: com.parasoft.xtest.common, state: [2], version: 10.3.0.20161114
+Bundle [51]: com.parasoft.xtest.communicator, state: [2], version: 10.3.0.20161114
+Bundle [52]: com.parasoft.xtest.configuration.api, state: [2], version: 10.3.0.20161114
+Bundle [53]: com.parasoft.xtest.configuration, state: [2], version: 10.3.0.20161114
+Bundle [54]: com.parasoft.xtest.coverage.api, state: [2], version: 10.3.0.20161114
+Bundle [55]: com.parasoft.xtest.coverage, state: [2], version: 10.3.0.20161114
+Bundle [56]: com.parasoft.xtest.dupcode.api, state: [2], version: 10.3.0.20161114
+Bundle [57]: com.parasoft.xtest.dupcode, state: [2], version: 10.3.0.20161114
+Bundle [58]: com.parasoft.xtest.flowanalysis.api, state: [2], version: 10.3.0.20161103B634
+Bundle [59]: com.parasoft.xtest.flowanalysis.common, state: [2], version: 10.3.0.20161103B634
+Bundle [60]: com.parasoft.xtest.flowanalysis, state: [2], version: 10.3.0.20161103B634
+Bundle [61]: com.parasoft.xtest.language.api, state: [2], version: 10.3.0.20161103B634
+Bundle [62]: com.parasoft.xtest.lic.client, state: [2], version: 10.3.0.20161114
+Bundle [63]: com.parasoft.xtest.preference.api, state: [2], version: 10.3.0.20161114
+Bundle [64]: com.parasoft.xtest.reports.api, state: [2], version: 10.3.0.20161114
+Bundle [65]: com.parasoft.xtest.reports, state: [2], version: 10.3.0.20161114
+Bundle [66]: com.parasoft.xtest.repository, state: [2], version: 10.3.0.20161114
+Bundle [67]: com.parasoft.xtest.resource.api, state: [2], version: 10.3.0.20161114
+Bundle [68]: com.parasoft.xtest.results.api, state: [2], version: 10.3.0.20161114
+Bundle [69]: com.parasoft.xtest.results, state: [2], version: 10.3.0.20161114
+Bundle [70]: com.parasoft.xtest.scontrol.api, state: [2], version: 10.3.0.20161114
+Bundle [71]: com.parasoft.xtest.scontrol.tfs, state: [2], version: 10.3.0.20161114
+Bundle [72]: com.parasoft.xtest.scontrol, state: [2], version: 10.3.0.20161114
+Bundle [73]: com.parasoft.xtest.scope.api, state: [2], version: 10.3.0.20161114
+Bundle [74]: com.parasoft.xtest.scope, state: [2], version: 10.3.0.20161114
+Bundle [75]: com.parasoft.xtest.share.api, state: [2], version: 10.3.0.20161114
+Bundle [76]: com.parasoft.xtest.share, state: [2], version: 10.3.0.20161114
+Bundle [77]: com.parasoft.xtest.suppressions, state: [2], version: 10.3.0.20161114
+Bundle [78]: com.parasoft.xtest.techsupport, state: [2], version: 10.3.0.20161114
+Bundle [79]: com.parasoft.xtest.testassist.api, state: [2], version: 10.3.0.20161114
+Bundle [80]: com.parasoft.xtest.testcases.api, state: [2], version: 10.3.0.20161114
+Bundle [81]: com.sun.xml.bind, state: [2], version: 2.2.7
+Bundle [82]: commons-configuration, state: [2], version: 1.9.0
+Bundle [83]: commons-io, state: [2], version: 2.4.0
+Bundle [84]: commons-lang3, state: [2], version: 3.1.0
+Bundle [85]: guava, state: [2], version: 18.0.0
+Bundle [86]: javanet.staxutils, state: [2], version: 1.0.0
+Bundle [87]: javax.mail, state: [2], version: 1.5.0
+Bundle [88]: jaxb-api, state: [2], version: 2.2.7
+Bundle [89]: jsr305, state: [2], version: 2.0.3
+Bundle [90]: jython, state: [2], version: 2.5.3
+Bundle [91]: kryo, state: [2], version: 2.24.0
+Bundle [92]: org.abego.treelayout.core, state: [2], version: 1.0.1
+Bundle [93]: org.antlr.4-annotations, state: [2], version: 4.2.1
+Bundle [94]: org.antlr.4-runtime, state: [2], version: 4.2.1
+Bundle [95]: org.apache.commons.io, state: [2], version: 1.4.0.v20081110-1000
+Bundle [96]: org.apache.commons.logging, state: [2], version: 1.1.3
+Bundle [97]: org.apache.jcs, state: [2], version: 1.3.4
+Bundle [98]: org.codehaus.stax2, state: [2], version: 3.2.4
+Bundle [99]: org.json, state: [2], version: 1.0.0.v201507290100
+Bundle [100]: org.objectweb.asm, state: [2], version: 5.0.3
+Bundle [101]: org.objenesis, state: [2], version: 2.1.0
+Bundle [102]: org.suigeneris.jrcs.diff, state: [2], version: 0.4.2
+Bundle [103]: oro, state: [2], version: 2.0.8
+Bundle [104]: rulewizard, state: [2], version: 1.0.2.qualifier
+Bundle [105]: xmlpull, state: [2], version: 1.1.3.1
+Bundle [106]: xpp3.min, state: [2], version: 1.1.0.4c
+Bundle [107]: xstream, state: [2], version: 1.4.4
+Bundle [108]: com.parasoft.xtest.reports.fonts, state: [2], version: 10.3.0.20161114
+
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@324adcdf
+CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@1dda17db
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    build.id=Coverage_Images
+    com.parasoft.jtest.globals.analyzer.batch.parse.limit=200
+    configuration.dir.builtin=/home/qa/Documents/Engines10.3.0/jtest/configs/builtin
+    configuration.dir.user=/home/qa/Documents/Engines10.3.0/jtest/configs/user
+    configuration.share.path=/jtest/configs
+    dtp.password=password
+    dtp.port=8443
+    dtp.project=ARCHIVE
+    dtp.server=soa-sdm-concerto.parasoft.com
+    dtp.user=jromero
+    jtest.analyzer.execution.coverage.show.synthetic.members=false
+    jtest.analyzer.static.dupcode.batch.parse.limit=100
+    jtest.analyzer.static.dupcode.parser.cache.enabled=true
+    jtest.analyzer.static.dupcode.simultaneous.processing.limit=400
+    jtest.analyzer.static.flow.batch.parse.limit=100
+    jtest.analyzer.static.flow.graphs.parallel.processing=false
+    jtest.analyzer.static.flow.graphs.simultaneous.processing.limit=50
+    jtest.analyzer.static.flow.models.cache.enabled=false
+    jtest.analyzer.static.flow.models.inMemorySize=75
+    jtest.analyzer.static.flow.parallel.processing=true
+    jtest.analyzer.static.flow.parser.java.xast.xmethodbinding.getMethodDeclaration=false
+    jtest.analyzer.static.flow.res.root.dir=/home/qa/Documents/Engines10.3.0/jtest/plugins/builtin/res
+    jtest.analyzer.static.flow.simultaneous.processing.limit=100
+    jtest.analyzer.static.java.batch.parse.limit=100
+    jtest.analyzer.static.java.parallel.processing=true
+    jtest.analyzer.static.java.parser.cache.enabled=true
+    jtest.analyzer.static.java.simultaneous.processing.limit=400
+    jtest.analyzer.static.metrics.batch.parse.limit=100
+    jtest.analyzer.static.metrics.parallel.processing=true
+    jtest.analyzer.static.metrics.parser.cache.enabled=true
+    jtest.analyzer.static.metrics.simultaneous.processing.limit=400
+    jtest.analyzer.static.prop.batch.parse.limit=50
+    jtest.analyzer.static.prop.parallel.processing=true
+    jtest.analyzer.static.prop.parser.cache.enabled=true
+    jtest.analyzer.static.prop.simultaneous.processing.limit=50
+    jtest.analyzer.static.rulewizard.batch.parse.limit=100
+    jtest.analyzer.static.rulewizard.parallel.processing=true
+    jtest.analyzer.static.rulewizard.parser.cache.enabled=true
+    jtest.analyzer.static.rulewizard.simultaneous.processing.limit=400
+    jtest.analyzer.static.xml.batch.parse.limit=50
+    jtest.analyzer.static.xml.parallel.processing=true
+    jtest.analyzer.static.xml.parser.cache.enabled=true
+    jtest.analyzer.static.xml.simultaneous.processing.limit=50
+    jtest.configuration.dir.builtin9x=/home/qa/Documents/Engines10.3.0/jtest/configs/builtin9x
+    jtest.configuration=builtin://Unit Tests
+    jtest.data=/home/qa/Documents/parabank-master/target/jtest/jtest.data.json
+    jtest.database.dir=${local.storage.dir}/com.parasoft.jtest.database
+    jtest.database.recreate=false
+    jtest.database.store.threads=1
+    jtest.database.url.suffix=;TRACE_LEVEL_FILE=1;MULTI_THREADED=1;LOCK_TIMEOUT=10000
+    jtest.exclude=/home/qa/Documents/parabank-master/target/jtest/testExcludes.lst
+    jtest.fail=false
+    jtest.home=/home/qa/Documents/Engines10.3.0/jtest
+    jtest.injected.field.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+    jtest.injected.field.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+    jtest.injected.field.annotations.maven=org.apache.maven.plugins.annotations.Parameter,org.apache.maven.plugins.annotations.Component
+    jtest.injected.field.annotations.seam=org.jboss.seam.annotations.In
+    jtest.injected.field.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+    jtest.injected.field.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+    jtest.injected.method.annotations.j2ee=javax.inject.Inject,javax.ws.rs.core.Context,javax.annotation.Resource,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+    jtest.injected.method.annotations.jpa=javax.persistence.Basic,javax.persistence.Embedded,javax.persistence.ElementCollection,javax.persistence.PersistenceContext,javax.persistence.Column,javax.persistence.ManyToMany,javax.persistence.ManyToOne,javax.persistence.OneToMany,javax.persistence.OneToOne,javax.persistence.PersistenceUnit
+    jtest.injected.method.annotations.maven=
+    jtest.injected.method.annotations.seam=org.jboss.seam.annotations.In,org.jboss.seam.annotations.Logger
+    jtest.injected.method.annotations.spring=org.springframework.beans.factory.annotation.Autowired,org.springframework.beans.factory.annotation.Value
+    jtest.injected.method.annotations.struts=com.opensymphony.xwork2.util.CreateIfNull,com.opensymphony.xwork2.inject.Inject
+    jtest.injected.parameter.annotations.j2ee=javax.ws.rs.core.Context,javax.ws.rs.DefaultValue,javax.ws.rs.QueryParam,javax.ws.rs.PathParam,javax.ws.rs.MatrixParam,javax.ws.rs.CookieParam,javax.ws.rs.HeaderParam,javax.ws.rs.BeanParam,javax.ws.rs.FormParam
+    jtest.injected.parameter.annotations.jpa=
+    jtest.injected.parameter.annotations.maven=
+    jtest.injected.parameter.annotations.seam=
+    jtest.injected.parameter.annotations.spring=org.springframework.beans.factory.annotation.Value
+    jtest.injected.parameter.annotations.struts=com.opensymphony.xwork2.inject.Inject
+    jtest.jtesthome=/home/qa/Documents/Engines10.3.0/jtest
+    jtest.license.custom_edition_features=Jtest, Static Analysis, Flow Analysis, Automation, Desktop Command Line, Coverage, Unit Test
+    jtest.license.network.edition=custom_edition
+    jtest.license.network.type=dtp
+    jtest.license.use_network=true
+    jtest.parser.cache.mode=default
+    jtest.parser.ignoreParseErrors=false
+    jtest.parser.includeRunningVMBootclasspath=false
+    jtest.parser.java.batch.parse.limit=1
+    jtest.rulewizard.dictionaries.dir=/home/qa/Documents/Engines10.3.0/jtest/etc/rulewizard
+    jtest.supported.javaversion=1.3,1.4,1.5,1.6,1.7,1.8
+    jtest.techsupport.include.configuration=true
+    jtest.techsupport.include.coverage=false
+    jtest.techsupport.include.database=false
+    jtest.techsupport.include.metrics=false
+    jtest.techsupport.include.report=false
+    jtest.techsupport.include.testoutcomes=false
+    jtest.workspace.dir=/home/qa/Documents/parabank-master/target/jtest
+    local.storage.dir=/home/qa/Documents/parabank-master/target/jtest/.jtest
+    report.active_rules=false
+    report.contexts_details=true
+    report.dtp.publish=true
+    report.format=html
+    report.location=/home/qa/Documents/parabank-master/target/jtest
+    report.setup.problems=bottom
+    report.test_params=true
+    rules.provider_dupcode.analyzer=com.parasoft.jtest.standards.dupcode
+    rules.provider_dupcode.data=/home/qa/Documents/Engines10.3.0/jtest/rules/dcrules.xml
+    rules.provider_dupcode.id=com.parasoft.jtest.standards.dupcode.rules
+    rules.provider_flowanalysis_builtin.analyzer=com.parasoft.jtest.flowanalyzer
+    rules.provider_flowanalysis_builtin.data=/home/qa/Documents/Engines10.3.0/jtest/rules/farules.xml
+    rules.provider_flowanalysis_builtin.id=com.parasoft.jtest.flowanalyzer.rules.builtin
+    rules.provider_flowanalysis_builtin.separator=.
+    rules.provider_flowanalysis_external.analyzer=com.parasoft.jtest.flowanalyzer
+    rules.provider_flowanalysis_external.data=/home/qa/Documents/Engines10.3.0/jtest/rules/external_farules.xml
+    rules.provider_flowanalysis_external.id=com.parasoft.jtest.flowanalyzer.rules.external
+    rules.provider_flowanalysis_external.separator=.
+    rules.provider_java_builtin.analyzer=com.parasoft.jtest.standards.checkers.java
+    rules.provider_java_builtin.data=/home/qa/Documents/Engines10.3.0/jtest/rules/corerules.xml
+    rules.provider_java_builtin.deprecated=/home/qa/Documents/Engines10.3.0/jtest/rules/deprecated_rules.xml
+    rules.provider_java_builtin.id=com.parasoft.jtest.rules.java.builtin
+    rules.provider_java_builtin.separator=.
+    rules.provider_metric.analyzer=com.parasoft.jtest.standards.metrics.analyzer
+    rules.provider_metric.data=/home/qa/Documents/Engines10.3.0/jtest/rules/metrics.xml
+    rules.provider_metric.id=com.parasoft.jtest.rules.metrics.builtin
+    rules.provider_metric.separator=.
+    rules.provider_metric.type=metrics
+    rules.provider_prop.analyzer=com.parasoft.jtest.standards.checkers.prop
+    rules.provider_prop.data=/home/qa/Documents/Engines10.3.0/jtest/rules/proprules.xml
+    rules.provider_prop.id=com.parasoft.jtest.rules.prop.builtin
+    rules.provider_prop.separator=.
+    rules.provider_rulewizard_builtin.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider_rulewizard_builtin.data=/home/qa/Documents/Engines10.3.0/jtest/rules/rwrules.xml
+    rules.provider_rulewizard_builtin.directory=/home/qa/Documents/Engines10.3.0/jtest/rules/builtin/
+    rules.provider_rulewizard_builtin.id=com.parasoft.jtest.rules.rulewizard.builtin
+    rules.provider_rulewizard_builtin.separator=.
+    rules.provider_rulewizard_team.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider_rulewizard_team.categories=${local.storage.dir}/rules/team/categories.properties
+    rules.provider_rulewizard_team.data=${local.storage.dir}/rules/team/rules.xml
+    rules.provider_rulewizard_team.dir=${local.storage.dir}/rules/team/
+    rules.provider_rulewizard_team.id=com.parasoft.jtest.rules.rulewizard.team
+    rules.provider_rulewizard_team.mapping=${local.storage.dir}/rules/team/rulemap.xml
+    rules.provider_rulewizard_team.separator=.
+    rules.provider_rulewizard_team.share.path=jtest/rules
+    rules.provider_rulewizard_user.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider_rulewizard_user.data=/home/qa/Documents/Engines10.3.0/jtest/rules/user/rules.xml
+    rules.provider_rulewizard_user.dir=/home/qa/Documents/Engines10.3.0/jtest/rules/user/
+    rules.provider_rulewizard_user.id=com.parasoft.jtest.rules.rulewizard.user
+    rules.provider_rulewizard_user.mapping=/home/qa/Documents/Engines10.3.0/jtest/rules/user/rulemap.xml
+    rules.provider_rulewizard_user.separator=.
+    rules.provider_xml.analyzer=com.parasoft.jtest.standards.checkers.xml
+    rules.provider_xml.data=/home/qa/Documents/Engines10.3.0/jtest/rules/xmlrules.xml
+    rules.provider_xml.id=com.parasoft.jtest.rules.xml.builtin
+    rules.provider_xml.separator=.
+    runtime.command_line=jtestcli -data /home/qa/Documents/parabank-master/target/jtest/jtest.data.json -config builtin://Unit Tests -exclude /home/qa/Documents/parabank-master/target/jtest/testExcludes.lst -report /home/qa/Documents/parabank-master/target/jtest -fail false
+    settings.rules.file.jtest=/home/qa/Documents/Engines10.3.0/jtest/etc/settings_rules.properties
+    suppression1.comment=//
+    suppression1.file.ext=java
+    suppression2.block.only=true
+    suppression2.comment=#
+    suppression2.file.ext=properties,mf
+    suppression3.block.only=true
+    suppression3.comment.suffix=-->
+    suppression3.comment=<!--
+    suppression3.file.ext=xml
+    suppression4.block.only=true
+    suppression4.comment.suffix=*/
+    suppression4.comment=/*
+    suppression4.file.ext=java
+
+DIAGNOSTICS INFO:
+DTP autoconfiguration is not enabled.
+Exception while collecting diagnostic text:
+java.lang.NullPointerException
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServicesFile(DtpServiceRegistry.java:343)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readFromFile(DtpServiceRegistry.java:315)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:191)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.initialize(DtpServiceRegistry.java:156)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServicesIds(DtpServiceRegistry.java:93)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistryDiagnostics.getDiagnosticInfo(DtpServiceRegistryDiagnostics.java:66)
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getDiagnosticInfo(DtpServiceRegistry.java:140)
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.getDiagnosticText(ServiceDiagnosticCollector.java:237)
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.access$0(ServiceDiagnosticCollector.java:207)
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:115)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@6f72f94d
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    jtest.license.custom_edition_features=Jtest, Static Analysis, Flow Analysis, Automation, Desktop Command Line, Coverage, Unit Test
+    jtest.license.enabled=true
+    jtest.license.network.edition=custom_edition
+    jtest.license.network.type=dtp
+    jtest.license.use_network=true
+    license.start_deactivated=false
+
+DIAGNOSTICS INFO:
+Registered license definition providers:
+    com.parasoft.jtest.common.license.JtestLicenseDefinitionProvider
+
+License requirements statuses:
++ ------------------------- + ------------- +
+| Requirement               | Enabled/Limit |
++ ------------------------- + ------------- +
+| Max-Parallel-Jobs-Value   | -1            |
+| Max-Testables-Value       | -1            |
+| Embedded-Testing          | false         |
+| Code-Review               | false         |
+| Security                  | false         |
+| Parameterization          | false         |
+| Application-Monitoring    | false         |
+| Rule-Wizard               | false         |
+| Sniffer                   | false         |
+| Runtime-Error-Detection   | false         |
+| Native-Tests-Import       | false         |
+| Source-Control            | true          |
+| Bug-Detective             | true          |
+| Concerto-Access           | true          |
+| Enforce-Max-Errors        | true          |
+| XML-Report-Generation     | true          |
+| Unit-Testing              | true          |
+| Coverage                  | true          |
+| Email-Reports             | true          |
+| Team-Share-Edit           | true          |
+| Command-Line-Execution    | true          |
+| Team-Share-Access         | true          |
+| Team-Share-Results-Upload | true          |
+| Coding-Standards          | true          |
+| Main                      | true          |
++ ------------------------- + ------------- +
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.dtp.DTPSharingRepository@6ca18a80
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    dtp.share.enabled=[undefined]
+
+DIAGNOSTICS INFO:
+    Enabled: false
+    Uri: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.share.internal.local.LocalSharingRepository@18b73f6
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+    Enabled: true
+    Dir: /home/qa/Documents/parabank-master/target/jtest/.jtest/com.parasoft.xtest.share/local
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.configuration.rules.RulesService@5248f0a1
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    rules.provider1.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider1.categories=file:/home/qa/Documents/parabank-master/target/jtest/.jtest/rules/team/categories.properties
+    rules.provider1.data=file:/home/qa/Documents/parabank-master/target/jtest/.jtest/rules/team/rules.xml
+    rules.provider1.dir=file:/home/qa/Documents/parabank-master/target/jtest/.jtest/rules/team/
+    rules.provider1.id=com.parasoft.jtest.rules.rulewizard.team
+    rules.provider1.mapping=file:/home/qa/Documents/parabank-master/target/jtest/.jtest/rules/team/rulemap.xml
+    rules.provider1.separator=.
+    rules.provider1.share.path=jtest/rules
+    rules.provider1.type=codingstandards
+    rules.provider10.analyzer=com.parasoft.jtest.standards.checkers.java
+    rules.provider10.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/corerules.xml
+    rules.provider10.deprecated=file:/home/qa/Documents/Engines10.3.0/jtest/rules/deprecated_rules.xml
+    rules.provider10.id=com.parasoft.jtest.rules.java.builtin
+    rules.provider10.separator=.
+    rules.provider10.type=codingstandards
+    rules.provider2.analyzer=com.parasoft.jtest.flowanalyzer
+    rules.provider2.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/external_farules.xml
+    rules.provider2.id=com.parasoft.jtest.flowanalyzer.rules.external
+    rules.provider2.separator=.
+    rules.provider2.type=codingstandards
+    rules.provider3.analyzer=com.parasoft.jtest.standards.metrics.analyzer
+    rules.provider3.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/metrics.xml
+    rules.provider3.id=com.parasoft.jtest.rules.metrics.builtin
+    rules.provider3.separator=.
+    rules.provider3.type=metrics
+    rules.provider4.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider4.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/user/rules.xml
+    rules.provider4.dir=file:/home/qa/Documents/Engines10.3.0/jtest/rules/user/
+    rules.provider4.id=com.parasoft.jtest.rules.rulewizard.user
+    rules.provider4.mapping=file:/home/qa/Documents/Engines10.3.0/jtest/rules/user/rulemap.xml
+    rules.provider4.separator=.
+    rules.provider4.type=codingstandards
+    rules.provider5.analyzer=com.parasoft.jtest.standards.checkers.rulewizard
+    rules.provider5.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/rwrules.xml
+    rules.provider5.id=com.parasoft.jtest.rules.rulewizard.builtin
+    rules.provider5.separator=.
+    rules.provider5.type=codingstandards
+    rules.provider6.analyzer=com.parasoft.jtest.standards.dupcode
+    rules.provider6.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/dcrules.xml
+    rules.provider6.id=com.parasoft.jtest.standards.dupcode.rules
+    rules.provider6.separator=.
+    rules.provider6.type=codingstandards
+    rules.provider7.analyzer=com.parasoft.jtest.flowanalyzer
+    rules.provider7.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/farules.xml
+    rules.provider7.id=com.parasoft.jtest.flowanalyzer.rules.builtin
+    rules.provider7.separator=.
+    rules.provider7.type=codingstandards
+    rules.provider8.analyzer=com.parasoft.jtest.standards.checkers.prop
+    rules.provider8.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/proprules.xml
+    rules.provider8.id=com.parasoft.jtest.rules.prop.builtin
+    rules.provider8.separator=.
+    rules.provider8.type=codingstandards
+    rules.provider9.analyzer=com.parasoft.jtest.standards.checkers.xml
+    rules.provider9.data=file:/home/qa/Documents/Engines10.3.0/jtest/rules/xmlrules.xml
+    rules.provider9.id=com.parasoft.jtest.rules.xml.builtin
+    rules.provider9.separator=.
+    rules.provider9.type=codingstandards
+
+DIAGNOSTICS INFO:
+com.parasoft.jtest.standards.checkers.rulewizard rules (providerId=com.parasoft.jtest.rules.rulewizard.team):
+Rules count: 0
+com.parasoft.jtest.flowanalyzer rules (providerId=com.parasoft.jtest.flowanalyzer.rules.external):
+Rules count: 0
+com.parasoft.jtest.standards.metrics.analyzer rules (providerId=com.parasoft.jtest.rules.metrics.builtin):
+    METRIC.CBO (severity=3)
+    METRIC.CC (severity=3)
+    METRIC.CLLOCRIF (severity=3)
+    METRIC.CLLOCRIM (severity=3)
+    METRIC.CLLOCRIT (severity=3)
+    METRIC.DIF (severity=3)
+    METRIC.ECC (severity=3)
+    METRIC.FO (severity=3)
+    METRIC.HDIFM (severity=3)
+    METRIC.HEFM (severity=3)
+    METRIC.HICM (severity=3)
+    METRIC.HLENM (severity=3)
+    METRIC.HLEVM (severity=3)
+    METRIC.HNOBM (severity=3)
+    METRIC.HTTPM (severity=3)
+    METRIC.HVOCM (severity=3)
+    METRIC.HVOLM (severity=3)
+    METRIC.IDOC (severity=3)
+    METRIC.LCOM (severity=3)
+    METRIC.MCC (severity=3)
+    METRIC.MI (severity=3)
+    METRIC.NBD (severity=3)
+    METRIC.NOBLIF (severity=3)
+    METRIC.NOBLIM (severity=3)
+    METRIC.NOBLIT (severity=3)
+    METRIC.NOC (severity=3)
+    METRIC.NOCLIF (severity=3)
+    METRIC.NOCLIM (severity=3)
+    METRIC.NOCLIT (severity=3)
+    METRIC.NOF (severity=3)
+    METRIC.NOLLOCIF (severity=3)
+    METRIC.NOLLOCIM (severity=3)
+    METRIC.NOLLOCIT (severity=3)
+    METRIC.NOMIT (severity=3)
+    METRIC.NOPAR (severity=3)
+    METRIC.NOPLIF (severity=3)
+    METRIC.NOPLIM (severity=3)
+    METRIC.NOPLIT (severity=3)
+    METRIC.NOPRIVMIT (severity=3)
+    METRIC.NOPROTMIT (severity=3)
+    METRIC.NOPUBMIT (severity=3)
+    METRIC.NORET (severity=3)
+    METRIC.NOSLIF (severity=3)
+    METRIC.NOSLIM (severity=3)
+    METRIC.NOSLIT (severity=3)
+    METRIC.NOT (severity=3)
+    METRIC.RFC (severity=3)
+    METRIC.SCC (severity=3)
+    METRIC.WMC (severity=3)
+Rules count: 49
+com.parasoft.jtest.standards.checkers.rulewizard rules (providerId=com.parasoft.jtest.rules.rulewizard.user):
+Rules count: 0
+com.parasoft.jtest.standards.checkers.rulewizard rules (providerId=com.parasoft.jtest.rules.rulewizard.builtin):
+    EJB.CDP (severity=1)
+    EJB.CNDA (severity=1)
+    EJB.CNDF (severity=1)
+    EJB.CRTE (severity=1)
+    EJB.MDBC (severity=1)
+    EJB.MNDF (severity=1)
+    EJB.NFDC (severity=1)
+    EJB.PCRTE (severity=1)
+    EJB.RTC (severity=1)
+    EJB.RTP (severity=1)
+    EJB.THISARG (severity=1)
+    EJB.THISRET (severity=1)
+    EXCEPT.TEFEC (severity=1)
+    GC.FM (severity=1)
+    GC.NCF (severity=1)
+    OOP.CIMOM (severity=1)
+    PB.USC.NACC (severity=1)
+    SECURITY.BV.DSSM (severity=1)
+    SECURITY.EAB.CMP (severity=1)
+    SECURITY.ESD.TFP (severity=1)
+    SECURITY.ESD.UPCT (severity=1)
+    SECURITY.IBA.AEAF (severity=1)
+    SECURITY.IBA.CSVFV (severity=1)
+    SECURITY.IBA.UPS (severity=1)
+    SECURITY.WSC.PPF (severity=1)
+    SECURITY.WSC.SRD (severity=1)
+    SECURITY.WSC.SSM (severity=1)
+    SERIAL.ENNAC (severity=1)
+    SERIAL.MRWD (severity=1)
+    SERIAL.ROWO (severity=1)
+    SERVLET.IF (severity=1)
+    CODSTA.EPC.CLNC (severity=2)
+    CODSTA.EPC.NCNFC (severity=2)
+    EJB.ADCB (severity=2)
+    EJB.AMSC (severity=2)
+    EJB.NFS (severity=2)
+    EJB.RT (severity=2)
+    GC.OSTM (severity=2)
+    INIT.SICUI (severity=2)
+    METRICS.CTNL (severity=2)
+    METRICS.NOMCML (severity=2)
+    METRICS.NPKGF (severity=2)
+    METRICS.NPKGM (severity=2)
+    METRICS.NPRIF (severity=2)
+    METRICS.NPRIM (severity=2)
+    METRICS.NPROF (severity=2)
+    METRICS.NPROM (severity=2)
+    METRICS.NPUBF (severity=2)
+    METRICS.NPUBM (severity=2)
+    METRICS.PAR (severity=2)
+    METRICS.TNLM (severity=2)
+    METRICS.TNMC (severity=2)
+    METRICS.TRET (severity=2)
+    METRICS.VG (severity=2)
+    NAMING.ID (severity=2)
+    NAMING.RPKG (severity=2)
+    PB.API.DNCSS (severity=2)
+    PB.API.OF (severity=2)
+    PB.API.REP (severity=2)
+    PB.API.SBCC (severity=2)
+    PB.API.URL (severity=2)
+    PB.LOGIC.JI (severity=2)
+    PB.NUM.BBDCC (severity=2)
+    PB.TYPO.BW (severity=2)
+    PB.TYPO.UOL (severity=2)
+    PB.USC.UNARY (severity=2)
+    PROPS.HCLS (severity=2)
+    SECURITY.WSC.UMAIN (severity=2)
+    SERVLET.UCO (severity=2)
+    TRS.AUTG (severity=2)
+    TRS.IMSE (severity=2)
+    TRS.THRD (severity=2)
+    TRS.TSHL (severity=2)
+    BEAN.EQUALS (severity=3)
+    BEAN.JDBC (severity=3)
+    BEAN.SERIALIZABLE (severity=3)
+    CODSTA.BP.AULS (severity=3)
+    CODSTA.BP.BLOCK (severity=3)
+    CODSTA.BP.CFNF (severity=3)
+    CODSTA.BP.EXIT (severity=3)
+    CODSTA.BP.PCF (severity=3)
+    CODSTA.EPC.UST (severity=3)
+    CODSTA.OIM.AMMO (severity=3)
+    CODSTA.OIM.CLONE (severity=3)
+    CODSTA.OIM.CLONE2 (severity=3)
+    CODSTA.OIM.CLONET (severity=3)
+    CODSTA.OIM.DVOM (severity=3)
+    CODSTA.ORG.UNDPN (severity=3)
+    CODSTA.READ.CID (severity=3)
+    CODSTA.READ.NSI (severity=3)
+    CODSTA.READ.PCTOR (severity=3)
+    DBC.PKGC (severity=3)
+    DBC.PKGMPOST (severity=3)
+    DBC.PKGMPRE (severity=3)
+    DBC.PROC (severity=3)
+    DBC.PROMPOST (severity=3)
+    DBC.PROMPRE (severity=3)
+    DBC.PUBC (severity=3)
+    DBC.PUBMPOST (severity=3)
+    DBC.PUBMPRE (severity=3)
+    ECLIPSE.IPMF (severity=3)
+    ECLIPSE.SMF (severity=3)
+    EJB.ABCS (severity=3)
+    EJB.ABFG (severity=3)
+    EJB.AIEBC (severity=3)
+    EJB.AJDBC (severity=3)
+    EJB.EJBLOAD (severity=3)
+    EJB.FNDM (severity=3)
+    EJB.IECM (severity=3)
+    EJB.IEPM (severity=3)
+    EJB.LNL (severity=3)
+    EJB.MRE (severity=3)
+    EJB.RILH (severity=3)
+    EJB.TCE (severity=3)
+    EJB.TFE (severity=3)
+    EJB.USF (severity=3)
+    EXCEPT.AIOC (severity=3)
+    EXCEPT.IMMEX (severity=3)
+    EXCEPT.MTE (severity=3)
+    EXCEPT.NCERR (severity=3)
+    EXCEPT.NCNPE (severity=3)
+    EXCEPT.NTNPE (severity=3)
+    EXCEPT.TRY (severity=3)
+    FORMAT.FCN (severity=3)
+    FORMAT.TC (severity=3)
+    FORMAT.TNL (severity=3)
+    GC.AUTP (severity=3)
+    GC.DUD (severity=3)
+    GC.FCF (severity=3)
+    GC.GC (severity=3)
+    GC.GCB (severity=3)
+    HIBERNATE.CAR (severity=3)
+    HIBERNATE.UGNQ (severity=3)
+    HIBERNATE.UNP (severity=3)
+    INIT.LV (severity=3)
+    INIT.NFS (severity=3)
+    INTER.COS (severity=3)
+    INTER.CTLC (severity=3)
+    JAVADOC.MVJDT (severity=3)
+    JAVADOC.TSMJT (severity=3)
+    JAVADOC.VMCR (severity=3)
+    JDBC.DSLV (severity=3)
+    JDBC.SCSF (severity=3)
+    JDBC.UDS (severity=3)
+    JUNIT.AHLOD (severity=3)
+    JUNIT.CSUPER (severity=3)
+    JUNIT.FAIL (severity=3)
+    JUNIT.FICB (severity=3)
+    JUNIT.ISMTC (severity=3)
+    JUNIT.OSIC (severity=3)
+    JUNIT.TCWNT (severity=3)
+    METRICS.ECLM (severity=3)
+    METRICS.ECLT (severity=3)
+    METRICS.NSTMT (severity=3)
+    METRICS.PJDC (severity=3)
+    MOBILE.ENUM (severity=3)
+    MOBILE.FLOATER (severity=3)
+    NAMING.IFV (severity=3)
+    NAMING.IRB (severity=3)
+    NAMING.USF (severity=3)
+    OOP.ACECC (severity=3)
+    OOP.ICIF (severity=3)
+    OOP.LEVEL (severity=3)
+    OOP.MFP (severity=3)
+    OOP.PIFC (severity=3)
+    OPT.ACDO (severity=3)
+    OPT.AGC (severity=3)
+    OPT.BR (severity=3)
+    OPT.DIC (severity=3)
+    OPT.IRB (severity=3)
+    OPT.NSF (severity=3)
+    OPT.PCTS (severity=3)
+    OPT.SB (severity=3)
+    OPT.SI (severity=3)
+    OPT.UEQ (severity=3)
+    PB.API.APPG (severity=3)
+    PB.API.EHM (severity=3)
+    PB.API.MASP (severity=3)
+    PB.API.NDC (severity=3)
+    PB.CUB.MAIN (severity=3)
+    PB.NUM.IMOF (severity=3)
+    PB.NUM.UBD (severity=3)
+    PB.NUM.UCM (severity=3)
+    PB.OCSF (severity=3)
+    PB.USC.AES (severity=3)
+    PB.USC.EPC (severity=3)
+    PB.USC.RTE (severity=3)
+    PORT.CTSP (severity=3)
+    PORT.EXEC (severity=3)
+    PORT.LNSP (severity=3)
+    PORT.NATV (severity=3)
+    PORT.PEER (severity=3)
+    PROPS.BSPV (severity=3)
+    SECURITY.IBA.ATF (severity=3)
+    SECURITY.WSC.AUIC (severity=3)
+    SECURITY.WSC.CL (severity=3)
+    SECURITY.WSC.DCSM (severity=3)
+    SECURITY.WSC.SL (severity=3)
+    SECURITY.WSC.USC (severity=3)
+    SERIAL.FT (severity=3)
+    SERIAL.SROS (severity=3)
+    SERVLET.AJDBC (severity=3)
+    SERVLET.BINS (severity=3)
+    SERVLET.SOP (severity=3)
+    SERVLET.STM (severity=3)
+    TRS.ANF (severity=3)
+    TRS.AUTY (severity=3)
+    TRS.NSYN (severity=3)
+    TRS.SOUF (severity=3)
+    TRS.UWNA (severity=3)
+    UC.AUL (severity=3)
+    UC.BCMP (severity=3)
+    UC.DIL (severity=3)
+    UC.EF (severity=3)
+    UC.FMFC (severity=3)
+    UC.SNE (severity=3)
+    UC.VR (severity=3)
+    CODSTA.ORG.AMOC (severity=4)
+    CODSTA.ORG.DCI (severity=4)
+    EJB.AOTO (severity=4)
+    EJB.RUH (severity=4)
+    INTER.PN (severity=4)
+    JUNIT.MAIN (severity=4)
+    JUNIT.OSUM (severity=4)
+    JUNIT.OTDM (severity=4)
+    METRICS.NOFT (severity=4)
+    METRICS.NOM (severity=4)
+    METRICS.NOTCML (severity=4)
+    OPT.USV (severity=4)
+    PB.CUB.OE (severity=4)
+    PB.RE.NXRE (severity=4)
+    SECURITY.WSC.CLONE (severity=4)
+    CODSTA.BP.PPAC (severity=5)
+    CODSTA.EPC.AFP (severity=5)
+    CODSTA.POD.DCTOR (severity=5)
+    CODSTA.READ.DOWHILE (severity=5)
+    DBC.PRIC (severity=5)
+    DBC.PRIMPOST (severity=5)
+    DBC.PRIMPRE (severity=5)
+    INTER.SCT (severity=5)
+    INTER.SE (severity=5)
+    INTER.SIO (severity=5)
+    INTER.ST (severity=5)
+    METRICS.ID (severity=5)
+    OOP.IIN (severity=5)
+    OPT.MAF (severity=5)
+    OPT.TOARRAY (severity=5)
+    PB.API.ECMC (severity=5)
+    PB.PCSF (severity=5)
+    SECURITY.WSC.CLI (severity=5)
+    SECURITY.WSC.DSER (severity=5)
+    SECURITY.WSC.MCNC (severity=5)
+    SECURITY.WSC.RDM (severity=5)
+    SECURITY.WSC.SER (severity=5)
+    TRS.NSM (severity=5)
+Rules count: 255
+com.parasoft.jtest.standards.dupcode rules (providerId=com.parasoft.jtest.standards.dupcode.rules):
+    CDD.DUPM (severity=2)
+    CDD.DUPT (severity=2)
+    CDD.DUPC (severity=3)
+    CDD.DUPS (severity=3)
+Rules count: 4
+com.parasoft.jtest.flowanalyzer rules (providerId=com.parasoft.jtest.flowanalyzer.rules.builtin):
+    BD.API.EQNULL (severity=1)
+    BD.API.EQREFL (severity=1)
+    BD.CO.ITMOD (severity=1)
+    BD.EXCEPT.NP (severity=1)
+    BD.PB.ARRAYINP (severity=1)
+    BD.PB.NOTEXPLINIT (severity=1)
+    BD.PB.NOTINITCTOR (severity=1)
+    BD.PB.POVR (severity=1)
+    BD.PB.STRNULL (severity=1)
+    BD.PB.ZERO (severity=1)
+    BD.RES.FREE (severity=1)
+    BD.RES.LEAKS (severity=1)
+    BD.SECURITY.SENS (severity=1)
+    BD.SECURITY.TDCMD (severity=1)
+    BD.SECURITY.TDDIG (severity=1)
+    BD.SECURITY.TDENV (severity=1)
+    BD.SECURITY.TDFILES (severity=1)
+    BD.SECURITY.TDFNAMES (severity=1)
+    BD.SECURITY.TDINPUT (severity=1)
+    BD.SECURITY.TDJXPATH (severity=1)
+    BD.SECURITY.TDLDAP (severity=1)
+    BD.SECURITY.TDLIB (severity=1)
+    BD.SECURITY.TDRESP (severity=1)
+    BD.SECURITY.TDRFL (severity=1)
+    BD.SECURITY.TDSQL (severity=1)
+    BD.SECURITY.TDXML (severity=1)
+    BD.SECURITY.TDXPATH (severity=1)
+    BD.SECURITY.TDXSS (severity=1)
+    BD.TRS.DIFCS (severity=1)
+    BD.TRS.DLOCK (severity=1)
+    BD.TRS.LOCK (severity=1)
+    BD.TRS.ORDER (severity=1)
+    BD.TRS.TSHL (severity=1)
+    BD.PB.ARRAY (severity=2)
+    BD.PB.BADSHIFT (severity=2)
+    BD.PB.CC (severity=2)
+    BD.PB.EXCEPT (severity=2)
+    BD.PB.GETPERM (severity=2)
+    BD.PB.INFREC (severity=2)
+    BD.SECURITY.CANPATH (severity=2)
+    BD.SECURITY.EACM (severity=2)
+    BD.SECURITY.PRIVIL (severity=2)
+    BD.SECURITY.REMTMP (severity=2)
+    BD.SECURITY.TDLOG (severity=2)
+    BD.SECURITY.TDNET (severity=2)
+    BD.SECURITY.VPPD (severity=2)
+    BD.SECURITY.XMLVAL (severity=2)
+    BD.OPT.INEFCOL (severity=3)
+    BD.OPT.INEFMAP (severity=3)
+    BD.OPT.INEFMAPRM (severity=3)
+    BD.PB.DEREF (severity=3)
+    BD.PB.PBIOS (severity=3)
+    BD.PB.SBONE (severity=3)
+    BD.PB.SWITCH (severity=3)
+    BD.PB.VOVR (severity=3)
+    BD.SECURITY.BUFEXP (severity=3)
+    BD.SECURITY.CUSTOM (severity=3)
+    BD.SECURITY.SSSD (severity=3)
+    BD.PB.RECFUN (severity=5)
+Rules count: 59
+com.parasoft.jtest.standards.checkers.prop rules (providerId=com.parasoft.jtest.rules.prop.builtin):
+    HIBERNATE.LHII (severity=1)
+    PROPS.DUPN (severity=1)
+    SECURITY.UEC.PWDPROP (severity=1)
+    ECLIPSE.PCMF (severity=2)
+    PROPS.EMN (severity=2)
+    PROPS.IARG (severity=2)
+    PROPS.ICK (severity=2)
+    PROPS.MENTRY (severity=2)
+    PROPS.PLAIN (severity=2)
+    PROPS.DUPV (severity=3)
+    PROPS.EMV (severity=3)
+    PROPS.EQOP (severity=3)
+    PROPS.FM (severity=3)
+    PROPS.IVCC (severity=3)
+    PROPS.MLN (severity=3)
+    PROPS.NAME (severity=3)
+    PROPS.SPELL (severity=3)
+    PROPS.TENTRY (severity=3)
+Rules count: 18
+com.parasoft.jtest.standards.checkers.xml rules (providerId=com.parasoft.jtest.rules.xml.builtin):
+    HIBERNATE.UPWD (severity=1)
+    SECURITY.UEC.DSR (severity=1)
+    SECURITY.UEC.FMCD (severity=1)
+    SECURITY.UEC.PCCF (severity=1)
+    SECURITY.UEC.PWDXML (severity=1)
+    SECURITY.UEC.WCMWS (severity=1)
+    SECURITY.UEC.WCPWD (severity=1)
+    SECURITY.UEC.WELC (severity=1)
+    SECURITY.UEC.WMWS (severity=1)
+    SECURITY.UEC.WPWD (severity=1)
+    STRUTS.AIV (severity=1)
+    STRUTS.AMFB (severity=1)
+    STRUTS.DFV (severity=1)
+    STRUTS.FWD (severity=1)
+    STRUTS.NTFB (severity=1)
+    STRUTS.PLUGIN (severity=1)
+    STRUTS.TAFP (severity=1)
+    XML.IVCC (severity=1)
+    XML.WF (severity=1)
+    SECURITY.UEC.WCMC (severity=2)
+    SECURITY.UEC.WCMI (severity=2)
+    SECURITY.UEC.WMC (severity=2)
+    SECURITY.UEC.WMI (severity=2)
+    SERVLET.DSN (severity=2)
+    SERVLET.SCM (severity=2)
+    SERVLET.SSN (severity=2)
+    STRUTS.MFBSN (severity=2)
+    STRUTS.MLVP (severity=2)
+    STRUTS.PFS (severity=2)
+    STRUTS.RSS (severity=2)
+    EJB.DPANY (severity=3)
+    EJB.RR (severity=3)
+    MOBILE.ANDROID.WUP (severity=3)
+    SECURITY.UEC.ADS (severity=3)
+    SECURITY.UEC.AELQ (severity=3)
+    SECURITY.UEC.DSL (severity=3)
+    SECURITY.UEC.EDAR (severity=3)
+    SECURITY.UEC.ISOS (severity=3)
+    SECURITY.UEC.LCA (severity=3)
+    SECURITY.UEC.PTPT (severity=3)
+    SECURITY.UEC.RAJ (severity=3)
+    SECURITY.UEC.SDAR (severity=3)
+    SECURITY.UEC.SEP (severity=3)
+    SECURITY.UEC.SLID (severity=3)
+    SECURITY.UEC.SMM (severity=3)
+    SECURITY.UEC.SRCD (severity=3)
+    SECURITY.UEC.TDAR (severity=3)
+    SECURITY.UEC.UDC (severity=3)
+    SECURITY.UEC.UTAX (severity=3)
+    SECURITY.UEC.WCMT (severity=3)
+    SECURITY.UEC.WCUTS (severity=3)
+    SECURITY.UEC.WMT (severity=3)
+    SECURITY.UEC.WSS (severity=3)
+    SECURITY.UEC.WUTS (severity=3)
+    SERVLET.NMS (severity=3)
+    SERVLET.SDTD (severity=3)
+    SPRING.ACARG (severity=3)
+    SPRING.DESC (severity=3)
+    SPRING.IDNAME (severity=3)
+    SPRING.IMPORTSRES (severity=3)
+    SPRING.LOCAL (severity=3)
+    SPRING.PROPLIMIT (severity=3)
+    SPRING.SPRNAM (severity=3)
+    SPRING.USEID (severity=3)
+    STRUTS.APSN (severity=3)
+    STRUTS.ARP (severity=3)
+    STRUTS.EV (severity=3)
+    STRUTS.PTE (severity=3)
+    STRUTS.SCDTD (severity=3)
+    STRUTS.STRUTS2.S2DAFV (severity=3)
+    STRUTS.STRUTS2.S2DV (severity=3)
+    STRUTS.STRUTS2.S2DVF (severity=3)
+    STRUTS.STRUTS2.S2NA (severity=3)
+    STRUTS.VPI (severity=3)
+    XML.DLTH (severity=3)
+    SPRING.PREFTYPE (severity=4)
+    STRUTS.DLGF (severity=4)
+    STRUTS.MLFF (severity=4)
+    SECURITY.UEC.HTTPS (severity=5)
+    SECURITY.UEC.REST (severity=5)
+Rules count: 80
+com.parasoft.jtest.standards.checkers.java rules (providerId=com.parasoft.jtest.rules.java.builtin):
+    CODSTA.EPC.SCLONE (severity=1)
+    CODSTA.OIM.OVERRIDE (severity=1)
+    EJB.EJB3.EAII (severity=1)
+    EJB.EJB3.PERMIT (severity=1)
+    HIBERNATE.SLM (severity=1)
+    INIT.UIRC (severity=1)
+    JDBC.BRSA (severity=1)
+    JDBC.CDBC (severity=1)
+    JDBC.RRWD (severity=1)
+    JDBC.UPSC (severity=1)
+    JUNIT.AST (severity=1)
+    JUNIT.ETCTA (severity=1)
+    JUNIT.SIA (severity=1)
+    JUNIT.SUITE (severity=1)
+    OOP.AHF (severity=1)
+    PB.API.CMMT (severity=1)
+    PB.API.HNCN (severity=1)
+    PB.API.IUMS (severity=1)
+    PB.API.ONS (severity=1)
+    PB.CLOSE (severity=1)
+    PB.CUB.ARCF (severity=1)
+    PB.CUB.ATSF (severity=1)
+    PB.LOGIC.EQUS (severity=1)
+    PB.LOGIC.ESO (severity=1)
+    PB.LOGIC.FLRC (severity=1)
+    PB.NUM.ICO (severity=1)
+    PB.NUM.IDCD (severity=1)
+    PB.NUM.NAN (severity=1)
+    PB.NUM.NIA (severity=1)
+    PB.RE.ACTI (severity=1)
+    PB.RE.IDRL (severity=1)
+    PB.RE.JLAY (severity=1)
+    PB.TYPO.ASI (severity=1)
+    PB.TYPO.WT (severity=1)
+    PB.USC.CC (severity=1)
+    PB.USC.UIF (severity=1)
+    PORT.ENV (severity=1)
+    SECURITY.EAB.AWT (severity=1)
+    SECURITY.EAB.JVM (severity=1)
+    SECURITY.ESD.CONSEN (severity=1)
+    SECURITY.ESD.PEO (severity=1)
+    SECURITY.ESD.PLC (severity=1)
+    SECURITY.ESD.SIF (severity=1)
+    SECURITY.ESD.SPI (severity=1)
+    SECURITY.IBA.AUSS (severity=1)
+    SECURITY.IBA.CDBV (severity=1)
+    SECURITY.IBA.XPIJ (severity=1)
+    SECURITY.WSC.AHCA (severity=1)
+    SECURITY.WSC.ARXML (severity=1)
+    SECURITY.WSC.CACM (severity=1)
+    SECURITY.WSC.CAM (severity=1)
+    SECURITY.WSC.CAP (severity=1)
+    SECURITY.WSC.DNSL (severity=1)
+    SECURITY.WSC.FXMLP (severity=1)
+    SECURITY.WSC.HCCK (severity=1)
+    SECURITY.WSC.HCCS (severity=1)
+    SECURITY.WSC.ICA (severity=1)
+    SECURITY.WSC.ISL (severity=1)
+    SECURITY.WSC.PAC (severity=1)
+    SECURITY.WSC.PACC (severity=1)
+    SECURITY.WSC.SCF (severity=1)
+    SECURITY.WSC.SCLONE (severity=1)
+    SECURITY.WSC.SCSER (severity=1)
+    SECURITY.WSC.SCSM (severity=1)
+    SECURITY.WSC.SSP (severity=1)
+    SECURITY.WSC.UOSC (severity=1)
+    SECURITY.WSC.VJFS (severity=1)
+    SECURITY.WSC.ZOIS (severity=1)
+    SERIAL.OC (severity=1)
+    SERIAL.SNNAC (severity=1)
+    SERIAL.SNSO (severity=1)
+    SERVLET.MDC (severity=1)
+    STRUTS.ACDA (severity=1)
+    STRUTS.INST (severity=1)
+    TRS.CSFS (severity=1)
+    TRS.IRUN (severity=1)
+    TRS.RLF (severity=1)
+    TRS.SCS (severity=1)
+    TRS.SSCI (severity=1)
+    TRS.UWIL (severity=1)
+    CODSTA.BP.ARN (severity=2)
+    CODSTA.BP.NRVA (severity=2)
+    CODSTA.READ.USN (severity=2)
+    EJB.ACL (severity=2)
+    EJB.EJB3.CPIM (severity=2)
+    EJB.EJB3.IDA (severity=2)
+    EJB.EJB3.ISB (severity=2)
+    EJB.EJB3.SIVS (severity=2)
+    EJB.JIO (severity=2)
+    EJB.SMSN (severity=2)
+    EJB.STD (severity=2)
+    EJB.THREAD (severity=2)
+    EXCEPT.CATO (severity=2)
+    GC.MML (severity=2)
+    GLOBAL.AUT (severity=2)
+    GLOBAL.DPAF (severity=2)
+    GLOBAL.DPAM (severity=2)
+    GLOBAL.SPAC (severity=2)
+    GLOBAL.SPAM (severity=2)
+    GLOBAL.UCC (severity=2)
+    GLOBAL.UPAC (severity=2)
+    GLOBAL.UPAF (severity=2)
+    GLOBAL.UPAM (severity=2)
+    HIBERNATE.RBT (severity=2)
+    JUNIT.TEST (severity=2)
+    NAMING.DJLO (severity=2)
+    OPT.ICDPC (severity=2)
+    OPT.USCL (severity=2)
+    PB.API.EJF (severity=2)
+    PB.API.EQNL (severity=2)
+    PB.API.KOEH (severity=2)
+    PB.API.UNI (severity=2)
+    PB.API.VENDOR (severity=2)
+    PB.CUB.DCP (severity=2)
+    PB.CUB.EBI (severity=2)
+    PB.CUB.OVAM (severity=2)
+    PB.CUB.SAC (severity=2)
+    PB.CUB.TOCTOU (severity=2)
+    PB.CUB.TOS (severity=2)
+    PB.CUB.UEIC (severity=2)
+    PB.LOGIC.AIL (severity=2)
+    PB.LOGIC.AOBO (severity=2)
+    PB.LOGIC.DJNCR (severity=2)
+    PB.LOGIC.OAMC (severity=2)
+    PB.NUM.AIC (severity=2)
+    PB.NUM.BSA (severity=2)
+    PB.NUM.CLP (severity=2)
+    PB.RE.PNPD (severity=2)
+    PB.RE.RCODE (severity=2)
+    PB.TYPO.TLS (severity=2)
+    PB.USC.FCBS (severity=2)
+    PB.USC.OI (severity=2)
+    SECURITY.BV.SYSP (severity=2)
+    SECURITY.ESD.TSPF (severity=2)
+    SECURITY.IBA.EDPM (severity=2)
+    SECURITY.IBA.VRD (severity=2)
+    SECURITY.UEHL.LGE (severity=2)
+    SECURITY.WSC.CKTS (severity=2)
+    SECURITY.WSC.ENPP (severity=2)
+    SECURITY.WSC.IVR (severity=2)
+    SERIAL.NSFSC (severity=2)
+    SERIAL.SPF (severity=2)
+    SERVLET.NSSS (severity=2)
+    SERVLET.SYN (severity=2)
+    SPRING.ATCFG (severity=2)
+    TRS.CSTART (severity=2)
+    TRS.DCL (severity=2)
+    TRS.LORD (severity=2)
+    TRS.SNSM (severity=2)
+    TRS.SOPF (severity=2)
+    UC.UIMPORT (severity=2)
+    BEAN.BLNC (severity=3)
+    CDD.DUPI (severity=3)
+    CODSTA.BP.AUML (severity=3)
+    CODSTA.BP.BLK (severity=3)
+    CODSTA.BP.CMUTA (severity=3)
+    CODSTA.BP.CS (severity=3)
+    CODSTA.BP.DLSF (severity=3)
+    CODSTA.BP.FPF (severity=3)
+    CODSTA.BP.HTV (severity=3)
+    CODSTA.BP.IMPTD (severity=3)
+    CODSTA.BP.NTX (severity=3)
+    CODSTA.EPC.AGBPT (severity=3)
+    CODSTA.EPC.COMT (severity=3)
+    CODSTA.EPC.NCE (severity=3)
+    CODSTA.EPC.STA (severity=3)
+    CODSTA.OIM.OVOTS (severity=3)
+    CODSTA.ORG.DINT (severity=3)
+    CODSTA.ORG.FO (severity=3)
+    CODSTA.ORG.IMP (severity=3)
+    CODSTA.ORG.OGM (severity=3)
+    CODSTA.ORG.ORCU (severity=3)
+    CODSTA.POD.ACIAP (severity=3)
+    CODSTA.POD.ASM (severity=3)
+    CODSTA.POD.AUVT (severity=3)
+    CODSTA.POD.CHAIN (severity=3)
+    CODSTA.POD.CIOC (severity=3)
+    CODSTA.POD.IASM (severity=3)
+    CODSTA.POD.SMC (severity=3)
+    CODSTA.POD.UET (severity=3)
+    CODSTA.POD.UPT (severity=3)
+    CODSTA.READ.ACCS (severity=3)
+    CODSTA.READ.AFD (severity=3)
+    CODSTA.READ.AIC (severity=3)
+    CODSTA.READ.ASIS (severity=3)
+    CODSTA.READ.AUTS (severity=3)
+    CODSTA.READ.CCB (severity=3)
+    CODSTA.READ.CEB (severity=3)
+    CODSTA.READ.CX (severity=3)
+    CODSTA.READ.ECSC (severity=3)
+    CODSTA.READ.FF (severity=3)
+    CODSTA.READ.FLV (severity=3)
+    CODSTA.READ.HBE (severity=3)
+    CODSTA.READ.LONG (severity=3)
+    CODSTA.READ.MVOS (severity=3)
+    CODSTA.READ.NEA (severity=3)
+    CODSTA.READ.PCIF (severity=3)
+    CODSTA.READ.SIE (severity=3)
+    CODSTA.READ.UATS (severity=3)
+    CODSTA.READ.ULIT (severity=3)
+    CODSTA.READ.VDT (severity=3)
+    CODSTA.READ.VIFS (severity=3)
+    DBC.CPT (severity=3)
+    DBC.IGM (severity=3)
+    DBC.IMNR (severity=3)
+    DBC.IPAN (severity=3)
+    DBC.RCC (severity=3)
+    DBC.SYNTAX (severity=3)
+    EJB.AUS (severity=3)
+    EJB.EJB3.AISE (severity=3)
+    EJB.EJB3.BMN (severity=3)
+    EJB.EJB3.CMF (severity=3)
+    EJB.EJB3.IDCS (severity=3)
+    EJB.EJB3.MDBS (severity=3)
+    EJB.EJB3.MDML (severity=3)
+    EJB.EJB3.MTM (severity=3)
+    EJB.EJB3.RMSB (severity=3)
+    EJB.EJB3.SRBM (severity=3)
+    EJB.MEC (severity=3)
+    EJB.UCIC (severity=3)
+    EXCEPT.AEFC (severity=3)
+    EXCEPT.CDUPL (severity=3)
+    EXCEPT.CLFIN (severity=3)
+    EXCEPT.CTE (severity=3)
+    EXCEPT.EPNFC (severity=3)
+    EXCEPT.HCB (severity=3)
+    EXCEPT.NFE (severity=3)
+    EXCEPT.NTERR (severity=3)
+    EXCEPT.RTERR (severity=3)
+    EXCEPT.TSCE (severity=3)
+    FORMAT.APAREN (severity=3)
+    FORMAT.ASPACE (severity=3)
+    FORMAT.ATS (severity=3)
+    FORMAT.BLBC (severity=3)
+    FORMAT.BLCD (severity=3)
+    FORMAT.BLSIM (severity=3)
+    FORMAT.CBRACE (severity=3)
+    FORMAT.CMS (severity=3)
+    FORMAT.DOT (severity=3)
+    FORMAT.DUT (severity=3)
+    FORMAT.FCB (severity=3)
+    FORMAT.IAD (severity=3)
+    FORMAT.IND (severity=3)
+    FORMAT.LL (severity=3)
+    FORMAT.MO (severity=3)
+    FORMAT.MSP (severity=3)
+    FORMAT.NSAB (severity=3)
+    FORMAT.OSPL (severity=3)
+    FORMAT.SAC (severity=3)
+    FORMAT.SAOP (severity=3)
+    FORMAT.SAP (severity=3)
+    FORMAT.SAS (severity=3)
+    FORMAT.SAUOP (severity=3)
+    FORMAT.SBOP (severity=3)
+    FORMAT.SBUOP (severity=3)
+    FORMAT.SC (severity=3)
+    FORMAT.SCOP (severity=3)
+    FORMAT.SLOP (severity=3)
+    FORMAT.SROP (severity=3)
+    FORMAT.TCOMMA (severity=3)
+    FORMAT.TE (severity=3)
+    FORMAT.U2BL (severity=3)
+    FORMAT.UP (severity=3)
+    GC.IFF (severity=3)
+    GC.RCO (severity=3)
+    GC.STV (severity=3)
+    GLOBAL.ASI (severity=3)
+    GLOBAL.SF (severity=3)
+    HIBERNATE.CHS (severity=3)
+    HIBERNATE.CSF (severity=3)
+    HIBERNATE.GSIM (severity=3)
+    HIBERNATE.IDC (severity=3)
+    HIBERNATE.OHCE (severity=3)
+    HIBERNATE.PIDS (severity=3)
+    INIT.ADI (severity=3)
+    INIT.AULI (severity=3)
+    INIT.DIA (severity=3)
+    INIT.IC (severity=3)
+    INIT.SF (severity=3)
+    INIT.SFA (severity=3)
+    INTER.CCL (severity=3)
+    INTER.CLO (severity=3)
+    INTER.ITT (severity=3)
+    INTER.SDFL (severity=3)
+    INTER.SEO (severity=3)
+    INTER.UNLS (severity=3)
+    JAVADOC.CRN (severity=3)
+    JAVADOC.DPMT (severity=3)
+    JAVADOC.ECTM (severity=3)
+    JAVADOC.ECTT (severity=3)
+    JAVADOC.JNJD (severity=3)
+    JAVADOC.MDJT (severity=3)
+    JAVADOC.MISFORMAT (severity=3)
+    JAVADOC.MRDC (severity=3)
+    JAVADOC.ORDER (severity=3)
+    JAVADOC.PARAM (severity=3)
+    JAVADOC.PJDC (severity=3)
+    JAVADOC.PJDF (severity=3)
+    JAVADOC.PJDM (severity=3)
+    JAVADOC.SINGLE (severity=3)
+    JAVADOC.SMJT (severity=3)
+    JAVADOC.SPELL (severity=3)
+    JAVADOC.SRRP (severity=3)
+    JAVADOC.THROW (severity=3)
+    JAVADOC.TSOL (severity=3)
+    JDBC.COCO (severity=3)
+    JDBC.ODBIL (severity=3)
+    JDBC.URSF (severity=3)
+    JUNIT.AEAT (severity=3)
+    JUNIT.ANAT (severity=3)
+    JUNIT.ANBA (severity=3)
+    JUNIT.ASAT (severity=3)
+    JUNIT.ASSERT (severity=3)
+    JUNIT.CBA (severity=3)
+    JUNIT.CSUTD (severity=3)
+    JUNIT.SIFN (severity=3)
+    JUNIT.TATC (severity=3)
+    JUNIT.UPJT (severity=3)
+    JUNIT.UPSS (severity=3)
+    MOBILE.ACFM (severity=3)
+    MOBILE.AMA (severity=3)
+    MOBILE.ANDROID.AOSM (severity=3)
+    MOBILE.APTA (severity=3)
+    MOBILE.AUEF (severity=3)
+    MOBILE.AUI (severity=3)
+    MOBILE.DARRAY (severity=3)
+    MOBILE.J2ME.ACII (severity=3)
+    MOBILE.J2ME.ARLL (severity=3)
+    MOBILE.J2ME.CIPA (severity=3)
+    MOBILE.J2ME.CSOO (severity=3)
+    MOBILE.J2ME.EAOF (severity=3)
+    MOBILE.J2ME.EURP (severity=3)
+    MOBILE.J2ME.OOME (severity=3)
+    NAMING.ANNS (severity=3)
+    NAMING.DSN (severity=3)
+    NAMING.ECN (severity=3)
+    NAMING.EXTENDS (severity=3)
+    NAMING.GETA (severity=3)
+    NAMING.GETB (severity=3)
+    NAMING.IMPLS (severity=3)
+    NAMING.NA (severity=3)
+    NAMING.NAC (severity=3)
+    NAMING.NACL (severity=3)
+    NAMING.NCL (severity=3)
+    NAMING.NE (severity=3)
+    NAMING.NENUM (severity=3)
+    NAMING.NFL (severity=3)
+    NAMING.NIF (severity=3)
+    NAMING.NITF (severity=3)
+    NAMING.NLV (severity=3)
+    NAMING.NM (severity=3)
+    NAMING.NMP (severity=3)
+    NAMING.NPH (severity=3)
+    NAMING.NSF (severity=3)
+    NAMING.NSM (severity=3)
+    NAMING.NTEST (severity=3)
+    NAMING.PKG (severity=3)
+    NAMING.SETA (severity=3)
+    NAMING.SINGLETON (severity=3)
+    NAMING.THAC (severity=3)
+    NAMING.UTIL (severity=3)
+    NAMING.UUVN (severity=3)
+    OOP.ACST (severity=3)
+    OOP.AF (severity=3)
+    OOP.AHSM (severity=3)
+    OOP.AOA (severity=3)
+    OOP.AOCM (severity=3)
+    OOP.ASFI (severity=3)
+    OOP.AUASI (severity=3)
+    OOP.AUO (severity=3)
+    OOP.HIF (severity=3)
+    OOP.HMF (severity=3)
+    OOP.IIAC (severity=3)
+    OOP.MUCOP (severity=3)
+    OOP.NAM (severity=3)
+    OOP.NPAC (severity=3)
+    OOP.OPM (severity=3)
+    OOP.PMPC (severity=3)
+    OOP.RI (severity=3)
+    OOP.SNGL (severity=3)
+    OOP.SVHM (severity=3)
+    OPT.AAM (severity=3)
+    OPT.AAS (severity=3)
+    OPT.ANIPW (severity=3)
+    OPT.AUMO (severity=3)
+    OPT.CCR (severity=3)
+    OPT.CEIL (severity=3)
+    OPT.CEL (severity=3)
+    OPT.CIO (severity=3)
+    OPT.CLL (severity=3)
+    OPT.CPTS (severity=3)
+    OPT.CRSG (severity=3)
+    OPT.CRWD (severity=3)
+    OPT.CTLV (severity=3)
+    OPT.EES (severity=3)
+    OPT.EIC (severity=3)
+    OPT.EOIL (severity=3)
+    OPT.ICGA (severity=3)
+    OPT.ILUG (severity=3)
+    OPT.ISC (severity=3)
+    OPT.LIOL (severity=3)
+    OPT.LOOP (severity=3)
+    OPT.MUNC (severity=3)
+    OPT.NCIO (severity=3)
+    OPT.NIW (severity=3)
+    OPT.PRIM (severity=3)
+    OPT.SBL (severity=3)
+    OPT.SBS (severity=3)
+    OPT.SDLS (severity=3)
+    OPT.SRA (severity=3)
+    OPT.STR (severity=3)
+    OPT.STRBUF (severity=3)
+    OPT.STS (severity=3)
+    OPT.SWIF (severity=3)
+    OPT.SYN (severity=3)
+    OPT.UISO (severity=3)
+    OPT.UMATH (severity=3)
+    OPT.UNC (severity=3)
+    OPT.USB (severity=3)
+    OPT.USC (severity=3)
+    PB.API.AECC (severity=3)
+    PB.API.APT (severity=3)
+    PB.API.DANNOT (severity=3)
+    PB.API.DPRAPI (severity=3)
+    PB.API.MOHK (severity=3)
+    PB.API.VAFS (severity=3)
+    PB.CUB.ADE (severity=3)
+    PB.CUB.AIPQ (severity=3)
+    PB.CUB.AMCO (severity=3)
+    PB.CUB.APAM (severity=3)
+    PB.CUB.AWP (severity=3)
+    PB.CUB.CNVC (severity=3)
+    PB.CUB.CWRITE (severity=3)
+    PB.CUB.EOOM (severity=3)
+    PB.CUB.FLVA (severity=3)
+    PB.CUB.IMC (severity=3)
+    PB.CUB.IMM (severity=3)
+    PB.CUB.ISF (severity=3)
+    PB.CUB.OSM (severity=3)
+    PB.CUB.PSFA (severity=3)
+    PB.CUB.RMO (severity=3)
+    PB.CUB.SBC (severity=3)
+    PB.CUB.SRAD (severity=3)
+    PB.CUB.STRCC (severity=3)
+    PB.CUB.TVOM (severity=3)
+    PB.EAR (severity=3)
+    PB.LOGIC.AMOI (severity=3)
+    PB.LOGIC.AULV (severity=3)
+    PB.LOGIC.CPI (severity=3)
+    PB.LOGIC.CRRV (severity=3)
+    PB.LOGIC.EQLC (severity=3)
+    PB.LOGIC.INDEX (severity=3)
+    PB.LOGIC.LLM (severity=3)
+    PB.LOGIC.OOR (severity=3)
+    PB.LOGIC.SG (severity=3)
+    PB.NUM.CACO (severity=3)
+    PB.NUM.CMP (severity=3)
+    PB.NUM.DCF (severity=3)
+    PB.NUM.FPLI (severity=3)
+    PB.NUM.IOF (severity=3)
+    PB.PDCL (severity=3)
+    PB.PDS (severity=3)
+    PB.RE.AMFSL (severity=3)
+    PB.RE.ASE (severity=3)
+    PB.RE.CAI (severity=3)
+    PB.RE.CIOR (severity=3)
+    PB.RE.CTNSE (severity=3)
+    PB.RE.IOSS (severity=3)
+    PB.RE.ISEM (severity=3)
+    PB.RE.NCMD (severity=3)
+    PB.TYPO.AECB (severity=3)
+    PB.TYPO.CSI (severity=3)
+    PB.TYPO.DAV (severity=3)
+    PB.TYPO.EB (severity=3)
+    PB.TYPO.IMO (severity=3)
+    PB.TYPO.NAMING (severity=3)
+    PB.USC.EC (severity=3)
+    PB.USC.NASSIG (severity=3)
+    PB.USC.SAFL (severity=3)
+    PORT.DNHCP (severity=3)
+    PORT.HCNA (severity=3)
+    PORT.PSC (severity=3)
+    SECURITY.BV.ACL (severity=3)
+    SECURITY.BV.CQRO (severity=3)
+    SECURITY.BV.ENFL (severity=3)
+    SECURITY.BV.NSF (severity=3)
+    SECURITY.BV.PCFM (severity=3)
+    SECURITY.BV.PCPM (severity=3)
+    SECURITY.BV.PDLC (severity=3)
+    SECURITY.DRC.THR (severity=3)
+    SECURITY.EAB.CBA (severity=3)
+    SECURITY.EAB.CPCL (severity=3)
+    SECURITY.EAB.MPT (severity=3)
+    SECURITY.EAB.SF (severity=3)
+    SECURITY.EAB.SIS (severity=3)
+    SECURITY.EAB.SMO (severity=3)
+    SECURITY.EAB.SPFF (severity=3)
+    SECURITY.ESD.CSD (severity=3)
+    SECURITY.ESD.RA (severity=3)
+    SECURITY.ESD.SDM (severity=3)
+    SECURITY.ESD.SIO (severity=3)
+    SECURITY.ESD.SNFD (severity=3)
+    SECURITY.IBA.NATIW (severity=3)
+    SECURITY.WSC.ACDP (severity=3)
+    SECURITY.WSC.ACPST (severity=3)
+    SECURITY.WSC.AMA (severity=3)
+    SECURITY.WSC.APIBS (severity=3)
+    SECURITY.WSC.BP (severity=3)
+    SECURITY.WSC.CFM (severity=3)
+    SECURITY.WSC.CIFC (severity=3)
+    SECURITY.WSC.CMO (severity=3)
+    SECURITY.WSC.INNER (severity=3)
+    SECURITY.WSC.PAF (severity=3)
+    SECURITY.WSC.PBPSF (severity=3)
+    SECURITY.WSC.PPKG (severity=3)
+    SECURITY.WSC.PRMF (severity=3)
+    SECURITY.WSC.PSFC (severity=3)
+    SECURITY.WSC.SMSTR (severity=3)
+    SECURITY.WSC.SS (severity=3)
+    SECURITY.WSC.STREP (severity=3)
+    SECURITY.WSC.UWM (severity=3)
+    SERIAL.DUID (severity=3)
+    SERIAL.EZEE (severity=3)
+    SERIAL.IRX (severity=3)
+    SERIAL.RRSC (severity=3)
+    SERIAL.RWAF (severity=3)
+    SERIAL.SCBNP (severity=3)
+    SERIAL.SRLZ (severity=3)
+    SERVLET.LML (severity=3)
+    SPRING.JDBCTEMPLATE (severity=3)
+    STRUTS.ACJC (severity=3)
+    STRUTS.FIELDS (severity=3)
+    STRUTS.IACM (severity=3)
+    STRUTS.PMAC (severity=3)
+    TRS.ATI (severity=3)
+    TRS.CDF (severity=3)
+    TRS.CLQ (severity=3)
+    TRS.CMA (severity=3)
+    TRS.CTRE (severity=3)
+    TRS.DOPQ (severity=3)
+    TRS.IASF (severity=3)
+    TRS.ILI (severity=3)
+    TRS.IRET (severity=3)
+    TRS.MRUN (severity=3)
+    TRS.NAME (severity=3)
+    TRS.OSNS (severity=3)
+    TRS.SOL (severity=3)
+    TRS.SSDF (severity=3)
+    TRS.SSUG (severity=3)
+    TRS.STR (severity=3)
+    TRS.UACS (severity=3)
+    TRS.UCM (severity=3)
+    TRS.USL (severity=3)
+    TRS.UT (severity=3)
+    TRS.WOC (severity=3)
+    TRS.WOS (severity=3)
+    UC.AAI (severity=3)
+    UC.ACC (severity=3)
+    UC.AEEO (severity=3)
+    UC.AESTAT (severity=3)
+    UC.AMAMI (severity=3)
+    UC.AURCO (severity=3)
+    UC.AURV (severity=3)
+    UC.DIEB (severity=3)
+    UC.FCSF (severity=3)
+    UC.PF (severity=3)
+    UC.PM (severity=3)
+    UC.RSKE (severity=3)
+    UC.UCATCH (severity=3)
+    UC.UCIF (severity=3)
+    UC.UES (severity=3)
+    UC.UP (severity=3)
+    UC.UPC (severity=3)
+    BEAN.NFM (severity=4)
+    CDD.DFI (severity=4)
+    CODSTA.BP.ABCL (severity=4)
+    CODSTA.BP.AMRO (severity=4)
+    CODSTA.BP.ARM (severity=4)
+    CODSTA.BP.AWRT (severity=4)
+    CODSTA.BP.FQNIC (severity=4)
+    CODSTA.EPC.NCAC (severity=4)
+    CODSTA.EPC.OVERLOAD (severity=4)
+    CODSTA.OIM.OTOSM (severity=4)
+    CODSTA.POD.ISACF (severity=4)
+    CODSTA.READ.ABUB (severity=4)
+    CODSTA.READ.AFQN (severity=4)
+    CODSTA.READ.ANL (severity=4)
+    CODSTA.READ.DUN (severity=4)
+    CODSTA.READ.DVCU (severity=4)
+    CODSTA.READ.MTBS (severity=4)
+    CODSTA.READ.NMUC (severity=4)
+    CODSTA.READ.PDBB (severity=4)
+    CODSTA.READ.UBL (severity=4)
+    EJB.EJB3.AIA (severity=4)
+    EJB.EJB3.RLI (severity=4)
+    EJB.UVO (severity=4)
+    GLOBAL.ACD (severity=4)
+    GLOBAL.DPAC (severity=4)
+    GLOBAL.DPPC (severity=4)
+    GLOBAL.DPPF (severity=4)
+    GLOBAL.DPPM (severity=4)
+    GLOBAL.NIE (severity=4)
+    GLOBAL.UEC (severity=4)
+    GLOBAL.UPPC (severity=4)
+    GLOBAL.UPPF (severity=4)
+    GLOBAL.UPPM (severity=4)
+    INIT.AAI (severity=4)
+    INIT.CLIB (severity=4)
+    INIT.CSI (severity=4)
+    INIT.DI (severity=4)
+    INTER.DTS (severity=4)
+    INTER.NCL (severity=4)
+    INTER.NTS (severity=4)
+    INTER.TTS (severity=4)
+    JAVADOC.BT (severity=4)
+    JAVADOC.ECTF (severity=4)
+    JAVADOC.MAJDT (severity=4)
+    NAMING.CVN (severity=4)
+    NAMING.LLI (severity=4)
+    NAMING.UHN (severity=4)
+    OOP.CQS (severity=4)
+    OOP.IDOM (severity=4)
+    OOP.INSOF (severity=4)
+    OOP.MI (severity=4)
+    OOP.NOMA (severity=4)
+    OOP.PSDF (severity=4)
+    OOP.RSFC (severity=4)
+    OOP.THRECL (severity=4)
+    OPT.STCA (severity=4)
+    PB.CUB.CTOR (severity=4)
+    PB.LOGIC.ROM (severity=4)
+    PB.RE.AQA (severity=4)
+    PB.RE.IIAE (severity=4)
+    PB.RE.VRNULL (severity=4)
+    PB.TYPO.RSK (severity=4)
+    SECURITY.EAB.ACWC (severity=4)
+    SECURITY.EAB.LDP (severity=4)
+    SECURITY.EAB.PCL (severity=4)
+    SECURITY.WSC.CLO (severity=4)
+    SECURITY.WSC.FIMU (severity=4)
+    SECURITY.WSC.INIVF (severity=4)
+    SERVLET.CETS (severity=4)
+    STRUTS.FORM (severity=4)
+    TRS.AIL (severity=4)
+    TRS.CIET (severity=4)
+    TRS.GSD (severity=4)
+    TRS.MRAV (severity=4)
+    UC.ARTD (severity=4)
+    UC.PIMPORT (severity=4)
+    UC.SO (severity=4)
+    CODSTA.BP.CONTINUE (severity=5)
+    CODSTA.BP.OCMA (severity=5)
+    CODSTA.EPC.IBS (severity=5)
+    CODSTA.EPC.MSF (severity=5)
+    CODSTA.EPC.WSIM (severity=5)
+    CODSTA.ORG.ORFIM (severity=5)
+    CODSTA.ORG.ORIMP (severity=5)
+    CODSTA.ORG.PML (severity=5)
+    CODSTA.READ.AEFS (severity=5)
+    CODSTA.READ.CLV (severity=5)
+    CODSTA.READ.CTA (severity=5)
+    CODSTA.READ.PFL (severity=5)
+    EJB.EJB3.PCUN (severity=5)
+    EJB.EJB3.ULI (severity=5)
+    GLOBAL.SPPC (severity=5)
+    GLOBAL.SPPM (severity=5)
+    JUNIT.DIR (severity=5)
+    OPT.NIVND (severity=5)
+    PB.CUB.CILB (severity=5)
+    PB.NAECS (severity=5)
+    SECURITY.BV.ADT (severity=5)
+    SECURITY.BV.AUG (severity=5)
+    SECURITY.EAB.OROM (severity=5)
+    SECURITY.ESD.ACW (severity=5)
+    SECURITY.WSC.ASAPI (severity=5)
+    SERVLET.NSIS (severity=5)
+    TRS.CHM (severity=5)
+    TRS.RUN (severity=5)
+Rules count: 678
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@f170022
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=
+    techsupport.archive.location=
+    techsupport.create.on.exit=
+    techsupport.enabled=
+    techsupport.include.reports=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: /home/qa/Documents/parabank-master/target/jtest/.jtest/com.parasoft.xtest.techsupport
+Total registered items: 13
+   com.parasoft.jtest.configuration.internal.osgi.JtestDataJsonTechSupportItem, key: null
+   com.parasoft.jtest.configuration.internal.osgi.JtestLogsTechSupportItem, key: null
+   com.parasoft.jtest.configuration.internal.osgi.JtestSettingsSupportItem, key: null
+   com.parasoft.jtest.configuration.internal.osgi.JtestTestOutcomesTechSupportItem, key: null
+   com.parasoft.jtest.configuration.internal.osgi.JtestDatabaseSupportItem, key: null
+   com.parasoft.jtest.configuration.internal.osgi.JTestSetupProblemsTechSupportItem, key: null
+   com.parasoft.xtest.reports.internal.ReportsTechSupportItem, name: Report files, key: techsupport.include.reports
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@73037510
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+    Max parallel jobs: 4
+    Max parallel jobs from license: -1
+    Max free memory limit: 25
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@4c407fa3
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Registered scope filters:
+    com.parasoft.xtest.scope.internal.filters.ScopePathsFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeResourcesFilter isEnabled=true isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.LargeFilesFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeContentFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeFilesFilter isEnabled=false isLicensed=true
+    com.parasoft.xtest.scope.internal.filters.ScopeLinesFilter isEnabled=false isLicensed=true
+Literal settings:
+    acceptedPathsRE=
+    rejectedPathsRE=
+    acceptedPathsWildcards=
+    rejectedPathsWildcards=
+    excludeAutogeneratedEnabled=false
+    excludeAutogeneratedPatterns=[(.*)// autogenerated(.*), // This file has been generated(.*), //* File generated automatically(.*), (.*)<auto-generated>(.*)]
+    skipLargeFilesEnabled=false
+    largeFilesLimit=0
+State settings:
+    changedFilesPrefse=CHECK_ALL_FILES
+    changedLinesPrefse=CHECK_ALL_LINES
+    modifiedSinceTime=0
+    modifiedBeforeTime=1485388800000
+    modifiedBeforeEnabled=false
+    rollingCutoffDays=7
+    checkOnlyUserFiles=false
+    doNotcheckRejectedUserFiles=false
+    checkOnlyUserLines=false
+    userNamesToCheck=[]
+    useDefaultIntegrationStream=true
+    branchName=
+Analyze zone settings:
+    analyzeZoneEnabled=false
+    skipAnalysisForNotMarkedFiles=false
+    startZoneMarkers=[(.*)// parasoft-start-analysis(.*)]
+    endZoneMarkers=[(.*)// parasoft-end-analysis(.*)]
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@2298f983
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.jtest.duplremover.DuplRemover@2d228c6f
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@2992a04d
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+DIAGNOSTICS INFO:
+Enabled: true
+Limit: 1000
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@14b8d1e6
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@731c545e
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@696cba84
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.metadata.MetadataProcessor@a0ae6b
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Enabled in prefs: true (default)
+Registry available: true
+DTP enabled: true
+Service URI: https://soa-sdm-concerto.parasoft.com:8443/grs/api/v1/staticAnalysisViolations/metadata
+REST client present: true
+Processor should be working.
+
+================================================================================================
+SERVICE: com.parasoft.jtest.execution.unittests.postprocessors.UnitTestPostProcessor@73e051d6
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@6ab43ac1
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@6c73aab4
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Authorship computers:
+    com.parasoft.xtest.authorship.internal.computer.ScmAuthorshipComputer isEnabled=false
+    com.parasoft.xtest.authorship.internal.computer.XmlMapAuthorshipComputer isEnabled=false
+    com.parasoft.xtest.authorship.internal.computer.LocalUserAuthorshipComputer isEnabled=true
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@6c8d1a83
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    com.parasoft.xtest.standards.api.ignore.suppressions=[undefined]
+    ignore.suppressions=[undefined]
+
+DIAGNOSTICS INFO:
+Enabled: true
+Registered suppressions services:
+    com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService type=comment
+    com.parasoft.xtest.suppressions.share.Share9xSuppressionsService type=shared
+    com.parasoft.xtest.suppressions.dtp.DtpSuppressionsService type=dtp
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@4ee37f0e
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Registered computers:
+    com.parasoft.xtest.suppressions.comment.SubstringSuppressionsComputer[java, xml, mf, properties]
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@63c7fabe
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+Registered coverage services:
+    com.parasoft.xtest.coverage.CoverageService coverage types=
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@49667f38
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@320dff67
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Source control statuses: 
+    1. accurev (disabled, {com.parasoft.xtest.sourcecontrol.accurev.exec=accurev})
+    2. ccase (disabled, {com.parasoft.xtest.sourcecontrol.ccase.exec=cleartool})
+    3. cvs (disabled)
+    4. git (disabled, {com.parasoft.xtest.sourcecontrol.git.exec=git})
+    5. hg (disabled, {com.parasoft.xtest.sourcecontrol.hg.exec=hg})
+    6. perforce (disabled, {com.parasoft.xtest.sourcecontrol.perforce.exec=p4})
+    7. serena (disabled, {com.parasoft.xtest.sourcecontrol.serena.dmroot=<< Serena Dimensions client install directory >>})
+    8. starteam (disabled, {com.parasoft.xtest.sourcecontrol.starteam.sdk=<< StarTeam SDK install dir >>})
+    9. svn (disabled, {com.parasoft.xtest.sourcecontrol.svn.exec=svn})
+    10. synergy (disabled, {com.parasoft.xtest.sourcecontrol.synergy.exec=ccm})
+    11. tfs (disabled)
+Repository Descriptions: 
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.reports.xml.XMLReporterService@761bf684
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    build.id=Coverage_Images
+    exec.env=[undefined]
+    issue.tracking.tags=[undefined]
+    report.active_rules=false
+    report.archive=[undefined]
+    report.assoc.url.=[undefined]
+    report.associations=[undefined]
+    report.authors_details=[undefined]
+    report.contexts_details=true
+    report.coverage.images=[undefined]
+    report.coverage.limit=[undefined]
+    report.coverage.version=[undefined]
+    report.custom.extension=[undefined]
+    report.custom.xsl.file=[undefined]
+    report.developer_errors=[undefined]
+    report.developer_reports=[undefined]
+    report.dtp.publish.src=[undefined]
+    report.dtp.publish=true
+    report.format=html
+    report.graph.period=[undefined]
+    report.graph.start_date=[undefined]
+    report.graphs=[undefined]
+    report.location=/home/qa/Documents/parabank-master/target/jtest
+    report.metadata=[undefined]
+    report.metrics.attributes=[undefined]
+    report.partial=[undefined]
+    report.rules=[undefined]
+    report.scontrol=[undefined]
+    report.separate_vm.launch.file=[undefined]
+    report.separate_vm.xmx=[undefined]
+    report.separate_vm=[undefined]
+    report.setup.problems.category_limit=[undefined]
+    report.setup.problems.console=[undefined]
+    report.setup.problems.display_limit=[undefined]
+    report.setup.problems=bottom
+    report.statistics=[undefined]
+    report.suppressed_msgs=[undefined]
+    report.test_params=true
+    report.testcases_details=[undefined]
+    report.transformer.reporter=[undefined]
+    session.tag=[undefined]
+
+DIAGNOSTICS INFO:
+Registered reports services :
+    com.parasoft.xtest.reports.internal.ReportsService
+    Transformers :
+        com.parasoft.xtest.reports.internal.transformers.XMLReportTransformer id=xml name=XML
+        com.parasoft.xtest.reports.internal.transformers.HtmlReportTransformer id=html name=HTML
+Registered reports publishers :
+    com.parasoft.xtest.reports.internal.mail.MailReportPublisher enabled=false expectedReportType=email_report
+    com.parasoft.xtest.reports.publish.XRestReportPublisher enabled=true expectedReportType=disk_report
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.reports.publish.sources.SourcesReporterService@51692fe4
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    report.dtp.publish=true
+
+DIAGNOSTICS INFO:
+Enabled: true
+Minimal mode: false
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@2c8f41d7
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    mail.server.auth.required=false
+    mail.server.security=STARTTLS
+    smtp.mail.server.port=25
+
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@20087a37
+CONTEXT: com.parasoft.jtest.configuration.JtestApplicationContext@35789d9
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Authors preferences:
+    IgnoreCase: false
+
+================================================================================================
+SCM PROBLEMS
+================================================================================================
+Instances:
+    (none)
+
+Invalid (missing required keys) repositories:
+    (none)
+
+Incomplete (partially recognized) repositories:
+    (none)
+
+
+================================================================================================
+Source Publishing Info
+================================================================================================
+Sources total: 214
+Sources to publish: 214
+Sources published: 214
+Bytes sent: 188150
+Exceptions: 0
+Messages: 0
+================================================================================================
+PROFILER RESULTS
+================================================================================================
+
+jtest.controler.profiler.id
++ -------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ -------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| executeFlow.getConfiguration           | 1     | 1.716     | 1.716   | 1.716   | 1.716   |
+| executeFlow.getTestingContext          | 1     | 0.175     | 0.175   | 0.175   | 0.175   |
+| getInputScope                          | 1     | 0.032     | 0.032   | 0.032   | 0.032   |
+| executeFlow.validatingSelectedFeatures | 1     | 0.014     | 0.014   | 0.014   | 0.014   |
+| getExecutionScope                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ -------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 1.937s
+
+Analyzers Profiler
++ ------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                       | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| Parasoft JUnit Analyzer.parallelProcess    | 3     | 2.15      | 0.15    | 1.456   | 0.716   |
+| Parasoft Coverage Analyzer.parallelProcess | 5     | 0.476     | 0.043   | 0.137   | 0.095   |
+| Validating selected rules                  | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
++ ------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 2.638s
+
+XRest Profiler
++ ------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                            | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| /api/v2/dataCollector           | 4     | 1.774     | 0.128   | 1.278   | 0.443   |
+| /api/v1/existingLocalSourceCopy | 2     | 0.557     | 0.031   | 0.525   | 0.278   |
+| /grs/api/v1/license/token       | 2     | 0.419     | 0.07    | 0.349   | 0.209   |
+| /grs/api/v1/dtpServices/        | 1     | 0.382     | 0.382   | 0.382   | 0.382   |
++ ------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 3.132s
+
+Suppressions Profiler
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| ShareSuppressionsProvider.getSuppression  | 6     | 0.003     | 0.0     | 0.002   | 0.0     |
+| CommentSuppressionsManager.getSuppression | 6     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.003s
+
+Coverage Profiler
++ ----------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------- + ----- + --------- + ------- + ------- + ------- +
+| addCoverageInfos()      | 3     | 0.376     | 0.092   | 0.177   | 0.125   |
+| recalculateStatistics() | 3     | 0.009     | 0.003   | 0.003   | 0.003   |
++ ----------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.385s
+
+Reports Profiler
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| SourcesReporterThread.run()             | 2     | 2.096     | 0.165   | 1.93    | 1.048   |
+| XMLReporterService.generateReports()    | 1     | 1.457     | 1.457   | 1.457   | 1.457   |
+| XMLReporterService.generateReport()     | 1     | 0.49      | 0.49    | 0.49    | 0.49    |
+| XMLReporter.reportResult()              | 2427  | 0.417     | 0.0     | 0.013   | 0.0     |
+| CoverageReporterService.publishReport() | 1     | 0.167     | 0.167   | 0.167   | 0.167   |
+| XMLReporter.openReport()                | 1     | 0.034     | 0.034   | 0.034   | 0.034   |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 4.661s
+
+License Profiler
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                  | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| LicenseService.isEnabled[Main]                        | 196   | 0.963     | 0.0     | 0.459   | 0.004   |
+| IntLicManager.getState[jtest!]                        | 203   | 0.944     | 0.0     | 0.458   | 0.004   |
+| LicenseModule.initializeModule                        | 1     | 0.611     | 0.611   | 0.611   | 0.611   |
+| IntLicManager.WAIT[Thread-2]                          | 1     | 0.457     | 0.457   | 0.457   | 0.457   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread] | 1     | 0.453     | 0.453   | 0.453   | 0.453   |
+| IntLicManager.activateLicense                         | 1     | 0.453     | 0.453   | 0.453   | 0.453   |
+| IntLicManager.getState[jtest! Automation]             | 490   | 0.092     | 0.0     | 0.012   | 0.0     |
+| IntLicManager.activateFinished                        | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| LicenseService.isEnabled[Team-Share-Results-Upload]   | 11    | 0.003     | 0.0     | 0.001   | 0.0     |
+| LicenseService.isEnabled[Team-Share-Access]           | 7     | 0.002     | 0.0     | 0.002   | 0.0     |
+| IntLicManager.releaseLicenes                          | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
+| LicenseService.isEnabled[Coverage]                    | 3     | 0.002     | 0.0     | 0.002   | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]            | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! Coding Standards]       | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! Desktop Command Line]   | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Command-Line-Execution]      | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! DTP Publish]            | 11    | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! Flow Analysis]          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Bug-Detective]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseServiceModules .statusChanged                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.invokeAsyncCallsQueue                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! Coverage]               | 3     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[jtest! Unit Test]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.checkFinished                           | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Unit-Testing]                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 3.989s
+
+Scope Filters Profiler
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| [Resources Filter].parallelProcess | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
++ ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.005s
+
+Flow Analysis Profiler
++ ------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                             | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| JcsRepository.close [light_tokens_1485471955261] | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
++ ------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.001s
+
+Async Call Profiler
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| ?                                           | 2     | 0.461     | 0.002   | 0.459   | 0.23    |
+| InternalLicenseManager.invokeAsyncCall:1077 | 719   | 0.015     | 0.0     | 0.012   | 0.0     |
+| AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.476s
+
+Result Processors Profiler
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| UnitTestPostProcessor.parallelProcess   | 20    | 1.523     | 0.009   | 0.964   | 0.076   |
+| ResultLocationProcessor.parallelProcess | 237   | 0.322     | 0.0     | 0.02    | 0.001   |
+| ResultLocationProcessor.adapt           | 4655  | 0.104     | 0.0     | 0.004   | 0.0     |
+| AuthorshipProcessor.parallelProcess     | 20    | 0.09      | 0.002   | 0.018   | 0.004   |
+| CoverageProcessor.process               | 226   | 0.028     | 0.0     | 0.0     | 0.0     |
+| SuppressionsProcessor.parallelProcess   | 2     | 0.006     | 0.002   | 0.004   | 0.003   |
+| GoalsProcessor.parallelProcess          | 2     | 0.004     | 0.001   | 0.003   | 0.002   |
+| ScopeResultProcessor.process            | 2425  | 0.001     | 0.0     | 0.0     | 0.0     |
+| GoalsProcessor.adapt                    | 6     | 0.0       | 0.0     | 0.0     | 0.0     |
+| RuleLimitProcessor.process              | 2425  | 0.0       | 0.0     | 0.0     | 0.0     |
+| SourceControlProcessor.adapt            | 1767  | 0.0       | 0.0     | 0.0     | 0.0     |
++ --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 2.078s
+
+parser.java.profiler.id
++ ----------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME              | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------- + ----- + --------- + ------- + ------- + ------- +
+| Parse single file | 149   | 8.404     | 0.0     | 0.963   | 0.056   |
++ ----------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 8.404s
+
+Default Profiler
++ -------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                                       | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ -------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| ReportsService.generateReports()                                           | 2     | 1.451     | 0.289   | 1.161   | 0.725   |
+| RulesService.init                                                          | 1     | 0.209     | 0.209   | 0.209   | 0.209   |
+| RulexXmlParser.parseFile                                                   | 11    | 0.183     | 0.001   | 0.083   | 0.016   |
+| ResultLocationProcessor.calculateFileHash                                  | 2966  | 0.112     | 0.0     | 0.004   | 0.0     |
+| FileHashResultsCache.calculateHash                                         | 214   | 0.033     | 0.0     | 0.004   | 0.0     |
+| TestableInput.countLines                                                   | 144   | 0.026     | 0.0     | 0.001   | 0.0     |
+| NumLinesResultsCache.computeResult                                         | 144   | 0.014     | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.calculateLineHash                                  | 14    | 0.005     | 0.0     | 0.004   | 0.0     |
+| LineHashCache.lineHashes                                                   | 3     | 0.005     | 0.0     | 0.004   | 0.001   |
+| ShareReassignments.getReassignment                                         | 6     | 0.004     | 0.0     | 0.004   | 0.0     |
+| com.parasoft.xtest.common.services.RawServiceContext                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| com.parasoft.xtest.common.services.RawConsoleServiceContext.getStore       | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| com.parasoft.xtest.common.services.RawConsoleServiceContext                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| com.parasoft.xtest.common.services.RawServiceContext.getStore              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| com.parasoft.xtest.common.services.RawConsoleServiceContext.getPreferences | 5     | 0.0       | 0.0     | 0.0     | 0.0     |
+| com.parasoft.xtest.common.services.RawServiceContext.getPreferences        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ -------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 2.042s
+================================================================================================
+SERVICES PROFILER
+================================================================================================
+Services provider profiler (COUNT > 1):
++ --------------------------------------------- + ----- + --------- +
+| NAME                                          | COUNT | TOTAL [s] |
++ --------------------------------------------- + ----- + --------- +
+| getServiceRefs(IRulesService)                 | 4     | 0.0       |
+| getService(IProfilerStatisticsService)        | 14    | 0.001     |
+| getService(IChartService)                     | 2     | 0.001     |
+| getService(IResultIndexer)                    | 2     | 0.001     |
+| getService(ISharingRepository)                | 5     | 0.001     |
+| getServiceRefs(IAnalyzerService)              | 6     | 0.002     |
+| getServices(IIOCAnalyzerService)              | 3     | 0.002     |
+| getServices(IDupCodeService)                  | 11    | 0.002     |
+| getServices(IReassignmentsService)            | 6     | 0.002     |
+| getService(IConsoleService)                   | 2     | 0.003     |
+| getServices(IGlobalsAnalyzerService)          | 6     | 0.003     |
+| getServices(IPreferenceValidationRules)       | 2     | 0.003     |
+| getService(IExecutionCategoriesProvider)      | 4     | 0.004     |
+| getService(ILocationsManager)                 | 4     | 0.004     |
+| getServices(IDynamicVariableProvider)         | 5     | 0.005     |
+| getService(IRulesCoreService)                 | 5     | 0.007     |
+| getService(IGoalsProvider)                    | 10    | 0.007     |
+| getServices(IReportPublisherService)          | 4     | 0.007     |
+| getServices(IReportsService)                  | 2     | 0.007     |
+| getServices(ISharingRepository)               | 2     | 0.009     |
+| getServices(IViolationXmlStorage)             | 2     | 0.009     |
+| getService(IDatabaseFacade)                   | 2     | 0.01      |
+| getServices(IScopeFilter)                     | 2     | 0.01      |
+| getService(IRulesService)                     | 12    | 0.01      |
+| getService(ISuppressionsService)              | 2     | 0.012     |
+| getServices(ISuppressionsService)             | 10    | 0.014     |
+| getServices(IReportTransformerService)        | 4     | 0.015     |
+| getService(IDtpServiceRegistry)               | 23    | 0.017     |
+| getService(ICoverageService)                  | 235   | 0.025     |
+| getService(IParallelRunner)                   | 178   | 0.038     |
+| getService(IScmService)                       | 5     | 0.039     |
+| getService(IAuthorshipService)                | 220   | 0.045     |
+| getService(IApplication)                      | 754   | 0.073     |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.161     |
+| getServices(IResultPostProcessorService)      | 2087  | 0.196     |
+| getService(ILicenseService)                   | 700   | 0.199     |
+| getService(IParserService)                    | 155   | 0.256     |
+| getServices(IPreferences)                     | 455   | 0.259     |
+| getServices(IAnalyzerService)                 | 13    | 0.946     |
+| getService(IAnalyzerAttacherService)          | 3     | 0.948     |
++ --------------------------------------------- + ----- + --------- +
+TOTAL: 3.353
+================================================================================================
+SERVICES INSTANCES COUNT
+================================================================================================
+
++ ---------------------------------------------------------------------------------------- + ----- +
+| Class                                                                                    | Count |
++ ---------------------------------------------------------------------------------------- + ----- +
+| com.parasoft.jtest.parser.service.ParserService                                          | 151   |
+| com.parasoft.xtest.common.dtp.DtpPreferences                                             | 3     |
+| com.parasoft.xtest.common.preferences.GeneralPreferences                                 | 3     |
+| com.parasoft.xtest.common.console.StdoutConsoleService                                   | 2     |
+| com.parasoft.xtest.common.dtp.DtpServiceRegistry                                         | 2     |
+| com.parasoft.xtest.share.internal.local.LocalSharingRepository                           | 2     |
+| com.parasoft.jtest.controller.internal.osgi.AnalyzerAttacherServiceImpl                  | 1     |
+| com.parasoft.jtest.coverage.internal.osgi.CoverageAnalyzer                               | 1     |
+| com.parasoft.jtest.coverage.internal.osgi.CoverageMerger                                 | 1     |
+| com.parasoft.jtest.execution.unittests.analyzers.JUnitAnalyzer                           | 1     |
+| com.parasoft.jtest.flowanalyzer.internal.osgi.FlowAnalysisService                        | 1     |
+| com.parasoft.jtest.standards.checkers.java.internal.osgi.JavaRulesAnalyzerService        | 1     |
+| com.parasoft.jtest.standards.checkers.prop.internal.osgi.PropertiesRulesAnalyzerService  | 1     |
+| com.parasoft.jtest.standards.checkers.rulewizard.internal.osgi.RuleWizardAnalyzerService | 1     |
+| com.parasoft.jtest.standards.checkers.xml.internal.osgi.XmlRulesAnalyzerService          | 1     |
+| com.parasoft.jtest.standards.metrics.analyzer.internal.osgi.MetricsAnalyzerService       | 1     |
+| com.parasoft.jtest.standards.rules.RulesCore                                             | 1     |
+| com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences                        | 1     |
+| com.parasoft.xtest.authorship.internal.computer.AuthorshipService                        | 1     |
+| com.parasoft.xtest.authorship.internal.computer.LocalUserAuthorshipComputer              | 1     |
+| com.parasoft.xtest.authorship.internal.computer.ScmAuthorshipComputer                    | 1     |
+| com.parasoft.xtest.authorship.internal.computer.XmlMapAuthorshipComputer                 | 1     |
+| com.parasoft.xtest.authorship.internal.reassignments.Share9xReassignmentsService         | 1     |
+| com.parasoft.xtest.common.issuetracking.IssueTrackingTagsPreferences                     | 1     |
+| com.parasoft.xtest.common.issuetracking.IssueTrackingTagsService                         | 1     |
+| com.parasoft.xtest.common.locations.LocationsManager                                     | 1     |
+| com.parasoft.xtest.common.parallel.ParallelExecutor                                      | 1     |
+| com.parasoft.xtest.common.parallel.ParallelPreferences                                   | 1     |
+| com.parasoft.xtest.common.problems.SetupProblemsConsoleReporterService                   | 1     |
+| com.parasoft.xtest.configuration.internal.BuiltinConfigDataProvider                      | 1     |
+| com.parasoft.xtest.configuration.internal.DtpConfigDataProvider                          | 1     |
+| com.parasoft.xtest.configuration.internal.SharedConfigDataProvider                       | 1     |
+| com.parasoft.xtest.configuration.internal.UserConfigDataProvider                         | 1     |
+| com.parasoft.xtest.configuration.rules.RulesService                                      | 1     |
+| com.parasoft.xtest.coverage.CoverageService                                              | 1     |
+| com.parasoft.xtest.lic.client.internal.service.LicenseService                            | 1     |
+| com.parasoft.xtest.lic.client.ui.preferences.LicensePreferences                          | 1     |
+| com.parasoft.xtest.reports.internal.ReportsService                                       | 1     |
+| com.parasoft.xtest.reports.internal.transformers.PdfReportTransformer                    | 1     |
+| com.parasoft.xtest.reports.publish.sources.SourcesReporterService                        | 1     |
+| com.parasoft.xtest.reports.xml.CoverageReporterService                                   | 1     |
+| com.parasoft.xtest.reports.xml.MetricsReporterService                                    | 1     |
+| com.parasoft.xtest.reports.xml.XMLReporterService                                        | 1     |
+| com.parasoft.xtest.results.internal.goals.GoalsProvider                                  | 1     |
+| com.parasoft.xtest.scontrol.internal.api.ScmService                                      | 1     |
+| com.parasoft.xtest.share.internal.dtp.DTPSharingRepository                               | 1     |
+| com.parasoft.xtest.suppressions.comment.SubstringSuppressionsComputer                    | 1     |
+| com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService              | 1     |
+| com.parasoft.xtest.suppressions.share.Share9xSuppressionsService                         | 1     |
+| com.parasoft.xtest.techsupport.TechSupportService                                        | 1     |
+| com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences               | 1     |
++ ---------------------------------------------------------------------------------------- + ----- +
