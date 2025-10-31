@@ -8,15 +8,9 @@ tags: qa-testing-automation-selenium-cucumber-api-jmeter-agile-jobsearch-careers
 
 ---
 
-# **QA Engineer: Zero-Bug Releases in Regulated Worlds**
+# Senior QA Engineer: &lt;0.1% Defect Escapes in Safety-Critical & Regulated Systems*User*
 
-*User Story – 45-Second Read*
-
-As a Senior QA Engineer (10+ yrs) shipping safety-critical & enterprise software, I want to prove I own manual-to-automation, security, compliance, and performance, So that your ISO 26262, DO-178C, or PCI DSS product launches on time — with zero escapes.
-
-# **QA Engineer: Zero-Bug Releases in Regulated Worlds**
-
-*User Story – 45-Second Read*
+User Story – 45-Second Read
 
 ---
 
@@ -59,4 +53,4 @@ As a Senior QA Engineer (10+ yrs) shipping safety-critical & enterprise software
 
 ---
 
-**Recruiter CTA:** *Want a QA who speaks* ***AUTOSAR, avionics, and DevSecOps****? Let’s talk.*
+**Recruiter CTA:** *Want a QA who speaks* ***AUTOSAR, avionics, and DevSecOps***\*? Let’s talk.\*
