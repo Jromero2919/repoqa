@@ -1,5 +1,5 @@
 ---
-title: "Persona Quality Assurance Specs"
+title: "Quality Assurance Toolkit"
 datePublished: Thu Oct 30 2025 22:23:07 GMT+0000 (Coordinated Universal Time)
 cuid: cmhdzqdzg000002jp1eyn4i52
 slug: quality-assurance-specs
